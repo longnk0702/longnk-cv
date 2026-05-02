@@ -1,0 +1,328 @@
+%-------------------------
+% Resume in Latex
+% Author : Shubhi Rani
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,9pt]{extarticle}
+
+% \documentclass[letterpaper,10.8pt]{article}
+	
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[pdftex]{hyperref}
+\usepackage{fancyhdr}
+\usepackage{graphicx}
+
+%for social icons
+\usepackage{fontawesome5}
+\usepackage{academicons}
+\usepackage{quotes}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.375in}
+\addtolength{\evensidemargin}{-0.375in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1in}
+
+\urlstyle{rm}
+%tabularx environment
+\usepackage{tabularx}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-3pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{: #2 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeItemWithoutTitle}[1]{
+  \item\small{
+    {\vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+%----------HEADING-----------------
+
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{{\LARGE Khac-Long Nguyen}} & \href{mailto:nk.long723@gmail.com}{\raisebox{-0.05\height}\faEnvelope \ nk.long723@gmail.com}\\
+  \href{https://www.linkedin.com/in/longnk0702/}{\raisebox{-0.05\height}\faLinkedin\ Long Nguyen Khac} & \href{https://join.skype.com/invite/}{\raisebox{-0.05\height}\faMobile \ (+84)358036759} \\
+  \href{https://longnk0702.github.io/}{\raisebox{-0.05\height}\faGithub\ LongNk0702}
+\end{tabular*}
+
+%-----------EDUCATION-----------------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {International School, Vietnam National University, Hanoi (VNUIS)}{Hanoi, Vietnam}
+      {BEng. Automation and Informatics}{08/2021 -  07/2026}
+        \begin{itemize}
+            \item QS WUR Ranking 386 for Engineering and Technology \href{https://www.topuniversities.com/universities/vietnam-national-university-hanoi}{(Source)}
+            \item GPA: 3.71/4.0 (Rank \#3 of the Cohort)
+            \item Transcripts: \href{https://www.dropbox.com/scl/fi/g45n25qu44qbhe5643vi6/Khac-Long-Nguyen-Academic-Transcript.pdf?rlkey=sckmcezviyhpbe7qkt35zz9cp\&st=c8nqbfm9\&dl=0}{Click here}
+        \end{itemize}
+    \resumeSubheading
+    {National University of Singapore (NUS)}{Singapore}
+    {Exchange Semester I, AY25/26}{08/2025 - 12/2025}
+    \begin{itemize}
+        \item QS WUR Ranking 12 for Engineering and Technology (\href{https://www.topuniversities.com/universities/national-university-singapore-nus}{Source})
+        \item Courseworks: Robot Mechanics and Control (ME4245), Electric Drives and Control (EE4502), Calculus (MA2002).
+    \end{itemize}
+  \resumeSubHeadingListEnd
+%-----------WORK EXPERIENCE-----------------
+\section{Research Experience}
+  \resumeSubHeadingListStart
+%Research Intern, CCU
+    \resumeSubheading
+    {AIM-HI Institute, National Chung Cheng University}{Chiayi, Taiwan}
+    {Research Intern}{05/2025 -  07/2025}
+    \begin{itemize}
+        \item \textbf{Project:} Smart Sensing Technology for Smart Manufacturing. 
+        \begin{itemize}
+            \item Developed a data-driven approach to estimate dynamic cutting force model in milling process by combining nonlinear system analysis with qualitative simulation.
+            \item Processed and trained 12 datasets of the cutting forces, each containing multi-channel sensor signals (three-axis dynamometer, spindle speed, feed rate, and depth of cut).
+            \item Implemented visualization and error analysis of predicted vs. actual measured cutting forces using Python.
+            \item Results: Prediction accuracy of 60-70\% compared to experimental ground-truth cutting force measurements.
+            \item \textbf{Supervisor:} \href{https://deptime.ccu.edu.tw/p/405-1102-22906,c2239.php?Lang=en}{Prof. Her-Terng Yau}
+        \end{itemize}
+        \vspace{-0.55cm}
+    \end{itemize}
+%Remote Research, CCU
+    \resumeSubheading
+    {}{}
+    {Remote Research}{08/2025-Current}
+    \begin{itemize}
+        \item \textbf{Project: } Prediction of cutting force model using AI and data-driven methods
+        \begin{itemize}
+            \item Implementing 03 machine learning models and 01 data-driven model to predict cutting force.
+            \item Training 27 experienced datasets collected by Taguchi method.
+            \item \textbf{Supervisor:} \href{https://deptime.ccu.edu.tw/p/405-1102-22906,c2239.php?Lang=en}{Prof. Her-Terng Yau}
+        \end{itemize}
+    \end{itemize}
+%IC&AI Lab
+    \resumeSubheading
+    {Intelligent Control and Artificial Intelligence Lab, VNUIS}{Hanoi, Vietnam}
+    {Student Research}{09/2022 - Current}
+    \begin{itemize}
+        \item \textbf{Project:} Implementation Model Predictive Control for Machining System (Current)
+            \begin{itemize}
+                \item Reviewing more than 30 papers in control of machining system and cutting force prediction.
+                \item Combining machine learning and MPC model to control machining system.
+                \item \textbf{Supervisor:} \href{https://www.is.vnu.edu.vn/en/assoc-prof-phd-nguyen-nhu-tung/}{Assoc. Prof. Nguyen Nhu Tung}
+            \end{itemize}
+        \item \textbf{Project:} Implementation Adaptive Control for 3-DOF Parallel Robot (2024)
+            \begin{itemize}
+                \item Designed mechanical model and physical prototype of 3-DOF delta parallel robot.
+                \item Applied adaptive fuzzy logic combined with backstepping control for robust trajectory tracking under uncertainties.
+                \item Simulation Results (Matlab/Simulink):
+                    \begin{itemize}
+                        \item Reduced steady-state deviation at J2 from 1.2 rad (Backstepping) to nearly 0 rad (Backstepping + Fuzzy). 
+                         \item Settling time improved from 0.3 s to 0.15–0.2 s.
+                         \item Coordinate tracking (\(x, y, z\)) stabilized with maximum deviation 0.35 rad.
+                    \end{itemize}
+                \item Results: Published in Lecture Notes in Networks and Systems, Springer, Q4.
+                \item \textbf{Supervisor:} \href{https://www.is.vnu.edu.vn/en/phd-le-xuan-hai/}{Dr. Le Xuan Hai}
+            \end{itemize}
+        \item \textbf{Project:} Detection of Personal Protective Equipment (PPE) in Construction Sites (2023)
+            \begin{itemize}
+                \item Built a custom dataset of 2,632 real construction site images across 5 PPE classes (helmet, vest, gloves, boots, person)
+                \item Trained and evaluated YOLOv5s with 6 activation functions, SiLU achieved the best performance.
+                \item Results: Precision 84.8\%, Recall 80.2\%, mAP@0.5 83.9\%, mAP@0.5--0.95 43.6\%. 
+                \item \textbf{Supervisor:} \href{https://www.is.vnu.edu.vn/en/phd-kim-dinh-thai/}{Dr. Kim Dinh Thai}
+            \end{itemize}
+    \end{itemize}
+\resumeSubHeadingListEnd
+
+%-----------Teaching EXPERIENCE-----------------
+\section{Teaching Experience}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+    {Faculty of Engineering and Technology, VNUIS}{Hanoi, Vietnam}
+    {Teaching Assistant}{09/2023 - 12/2024}
+    \begin{itemize}
+    %Modeling and Simulation of control system
+        \item Modeling and Simulation of Control Systems (Semester 1, AY24/25)
+        \begin{itemize}
+            \item Assisted in teaching undergraduate course focused on modeling, analysis, and simulation of dynamic systems.
+            \item Supported lecturer in preparing tutorials, lab manuals, and course materials.
+            \item Mentored student groups on applying simulation tools for robotics, mechatronics and process control applications by using MATLAB/Simulink.
+            \item \textbf{Supervisor:} \href{https://www.is.vnu.edu.vn/en/phd-le-xuan-hai/}{Dr. Le Xuan Hai}
+        \end{itemize}
+    %PLC Programming
+        \item PLC Programming (Semester 1, AY24/25)
+        \begin{itemize}
+            \item Assisted in preparing technical manual documents in Siemens S7-1200 and TIA Portal.
+            \item Mentored 01 team programming 4-floor elevator control logic project and 01 team programming pneumatic valve and signal control project.
+            \item Assisted with troubleshooting, hardware interfacing, and simulation.
+            \item \textbf{Supervisor:} \href{https://www.is.vnu.edu.vn/en/ms-pham-hai-yen/}{MSc. Pham Hai Yen}
+        \end{itemize}
+    %Microprocessors and microcontrollers
+        \item Microprocessors and Microcontrollers (Semester 1, AY23/24)
+        \begin{itemize}
+            \item Assisted in teaching undergraduate course covering embedded C, and microcontroller interfacing (Arduino, STM32).
+            \item Mentored students on debugging techniques using Keil uVision, Arduino IDE, and STM32CubeIDE.
+            \item Supported lecturer in preparing tutorials, lab manuals, and course materials.
+            \item \textbf{Supervisor:} \href{https://www.is.vnu.edu.vn/en/phd-le-xuan-hai/}{Dr. Le Xuan Hai}
+        \end{itemize}
+    \end{itemize}
+    \resumeSubheading
+    {Hung STEM Robotics Lab}{Hanoi, Vietnam}
+    {Collaborator}{07/2022 - 12/2022}
+    \begin{itemize}
+        \item \textbf{Project}: World Robotics Olympiad 2022 Vietnam
+        \begin{itemize}
+            \item Mentored in a team to participate in World Robotics Olympiad 2022 Vietnam, assisted the team in building up new LEGO modules.
+            \item Engaged in teaching STEM robotics classes using LEGO NXT in STEM club at Grammar Newton International Bilingual School, Hanoi.
+            \item \textbf{Supervisor:} Mr. Nguyen Quoc Hung (\href{mailto: }{\raisebox{-0.05\height}Email})
+        \end{itemize}
+    \end{itemize}
+\resumeSubHeadingListEnd
+
+%-----------Working EXPERIENCE-----------------
+\section{Working Experience}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+    {ETEK Automation Solutions JSC}{Hanoi, Vietnam}
+    {Intern}{03/2025 -  05/2025}
+    \begin{itemize}
+        \item \textbf{Project:} AGV-based Virtual Simulation for Automated Warehouse Logistics – VINFAST Hai Phong.
+        \begin{itemize}
+            \item Sketched AGV/AMR traffic intersections using AutoCAD and simulated their operations using Visual Components Premium 4.6.
+            \item Monitored and analyzed AGV/AMR behavior, identified errors, and troubleshooting.
+            \item \textbf{Supervisor:} Mr. Nguyen Ngoc Khanh (\href{mailto:khanh.nn@etek.com.vn}{\raisebox{-0.05\height}Email})
+        \end{itemize}
+
+    \end{itemize}
+    \resumeSubheading
+    {Vietnam E-Commerce and Digital Economy Agency, Ministry of Industry and Trade}{Hanoi, Vietnam}
+    {Collaborator}{07/2023 -  09/2023}
+    \begin{itemize}
+        \item \textbf{Project:} Program for Consultancy Support and Sales Policy Development for E-Commerce Website (CPAPER)
+        \begin{itemize}
+            \item Coordinated with SMEs across Dak Nong and An Giang province to develop e-commerce platforms.
+            \item Assisted in website design, content management, and prepared technical mannual documents.
+        \end{itemize}
+        
+    \end{itemize}
+\resumeSubHeadingListEnd
+
+%--------PUBLICATIN------------
+\section{Publication}
+    \begin{enumerate}
+        \item \textbf{Long Nguyen Khac}. et al. \textit{Adaptive Fuzzy Logic in Backstepping Control for 3-DOF Parallel Robot}. International Conference on Advances in Information and Communication Technology, doi: \href{https://doi.org/10.1007/978-3-031-80943-9_57}{10.1007/978-3-031-80943-9\_57}.
+        \begin{itemize}
+            \item \textit{\underline{Main highlights:} an adaptive fuzzy logic control system integrated with backstepping control for a 3-DOF delta robot.}
+        \end{itemize}
+        \item \textbf{Long Nguyen Khac}. et al. \textit{YOLOv5s Model with Applied Activation Functions for Personal Protective Equipment Detection in Construction Sites}. Proceedings of National Conference on Smart Technology Applications in Industry 4.0 Smart City, and Sustainability. (2023)
+        \begin{itemize}
+            \item \textit{\underline{Main highlights:} a deep learning-based approach using YOLOv5s with 06 activation functions with a new dataset of 2632 images for detecting PPE.}
+        \end{itemize}
+    \end{enumerate}
+%-----------TALKS-----------------
+\section{Talks}
+\begin{tabularx}{\linewidth}{ @{}l r@{} }
+\textbf{The 3rd International Conference ICTA 2024} & \hfill Phu Tho, Vietnam \\[3.75pt]
+Mechatronics and Automation & \hfill \textit{11/2024} \\[3.75pt]
+\multicolumn{2}{@{}X@{}}{}
+\vspace{-0.6cm}
+\end{tabularx}
+
+%-----------Awards-----------------
+\section{Honors and Awards}
+\begin{itemize}
+\item Selected as one of 20 VNU students received \textbf{DiscoverNUS \& NUS ASEAN Master's Scholarship} for one semester exchange fully funded by National University of Singapore. (Semester 1, AY25/26)
+\item Selected as one of 28 global students received \textbf{Taiwan Experience Education Program (TEEP) Scholarship} fully-funded by Ministry of Education, Republic of China (Taiwan) to intern at National Chung Cheng University (CCU).
+\item Selected as one of 04 VNU students to participate in \textbf{ASEAN in Today's World} in Indonesia funded by Kyushu Univeristy, Japan.(2025)
+\item Selected as one of 20 undergraduate and graduate students received \textbf{TOSHIBA scholarship}. (AY 24/25)
+\item Received \textbf{Academic Encouragement Scholarship}, 4/6 semesters.(Semester 1, AY22/23, Semester 1, AY 23/24, Semester 1,2 AY 24/25)
+\item Selected as one of 20 VNU students to participate in \textbf{Temasek Foundation Specialist's Community Action \& Leadership Exchange Program} in Singapore fully funded by Temasek Foundation. (2024)
+\item Received \textbf{Outstanding Young Face} Award, VNUIS. (2024)
+\item Received \textbf{Student with Five Good Merits} Award, VNU. (2024)
+\item Received \textbf{Fighting Spirit Prize} in South-East Asia Circuit and System Society Hackathon. (2022)
+\end{itemize}
+%-------------------------------------------
+% Volunteer work  exper ience %
+%-----------Awards-----------------
+% \section{Volunteer activities}
+% \begin{description}[font=$\bullet$]
+% \item Volunteered in The 31st Southeast Asian Games (SEA Games). (2022)
+% \item Volunteered in Highland Volunteer Program "Tron" in Cao Bang province, VNUIS. (2022)
+% \item Blood donated in National Institute of Hematology and Blood Transfusion. (2023, 2024)
+% \end{description}
+
+
+%--------PROGRAMMING SKILLS------------
+\section{Skills}
+	\resumeSubHeadingListStart
+	\resumeSubItem{General skills}{Mathematical modeling, control systems designing, embedded programming, mechanical designing}
+	\resumeSubItem{Programming Skills}{Matlab, Python, Embedded C/C++}
+    \resumeSubItem{Specialisation} {Adaptive Control, Machine Learning, Robotics}
+    % Data Science
+    \resumeSubItem{Softwares and Frameworks} {Matlab/Simulink, Solidworks, PyTorch}
+    \resumeSubItem{Languages} {Vietnamese (Native), English (IELTS 6.5: Writing 7.0), Chinese (Beginner)}
+\resumeSubHeadingListEnd
+
+%--------Reference------------
+\section{References}
+          
+\begin{itemize}[leftmargin=0.35cm]
+    \item \textbf{Prof. Her-Terng Yau} \\ 
+          Director of AIM-HI, National Chung Cheng University, Taiwan \\
+          Email: \href{mailto:yauherterng@gmail.com}{yauherterng@gmail.com}
+    \item \textbf{Assoc. Prof. Nguyen Nhu Tung} \\ 
+          Senior Lecturer, Faculty of Engineering and Technology \\
+          Academic Advisor of Industrial Systems Engineering and Logistics Major \\
+          Email: \href{mailto:tungnn@vnu.edu.vn}{tungnn@vnu.edu.vn}
+
+    \item \textbf{Dr. Le Xuan Hai}  \\
+          Academic Advisor of Automation and Informatics Major \\
+          Director, Intelligent Control and Artificial Intelligence Lab (ICL) \\
+          Vice Dean, Faculty of Engineering and Technology, International School, VNU \\
+          Email: \href{mailto:hailx@vnu.edu.vn}{hailx@vnu.edu.vn}
+\end{itemize}
+\end{document}
