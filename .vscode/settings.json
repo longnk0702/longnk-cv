@@ -1,0 +1,17 @@
+{
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/.DS_Store": true,
+        "**/Thumbs.db": true,
+        "**/e:\\1. Tai lieu tu hoc\\20. github\\longnk-cv\\CV_v3\\cv.aux": true,
+        "**/e:\\1. Tai lieu tu hoc\\20. github\\longnk-cv\\CV_v3\\cv.log": true,
+        "**/e:\\1. Tai lieu tu hoc\\20. github\\longnk-cv\\CV_v3\\cv.gz": true,
+        "**/e:\\1. Tai lieu tu hoc\\20. github\\longnk-cv\\CV_v3\\cv.out": true,
+        "**/e:\\1. Tai lieu tu hoc\\20. github\\longnk-cv\\CV_v2\\cv.aux": true,
+        "**/e:\\1. Tai lieu tu hoc\\20. github\\longnk-cv\\CV_v2\\cv.log": true,
+        "**/e:\\1. Tai lieu tu hoc\\20. github\\longnk-cv\\CV_v2\\cv.gz": true,
+        "**/e:\\1. Tai lieu tu hoc\\20. github\\longnk-cv\\CV_v2\\cv.out": true
+    }
+}
