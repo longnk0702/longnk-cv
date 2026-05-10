@@ -1,0 +1,123 @@
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+
+%-------------------------------------------------------------------------------
+% CONFIGURATIONS
+%-------------------------------------------------------------------------------
+\documentclass[11pt, a4paper]{src/awesome-cv}
+% Font
+\usepackage{fontspec}
+\defaultfontfeatures{Ligatures=TeX}
+
+%Computer modern style for XeLaTex
+\setmainfont{Latin Modern Roman}
+\setsansfont{Latin Modern Sans}
+\setmonofont{Latin Modern Mono}
+
+% %Override Awsome-CV default fonts
+% \renewcommand*{\headerfont}{\fontspec{Latin Modern Sans}}
+% \renewcommand*{\headerfontlight}{\fontspec{Latin Modern Sans}}
+% \renewcommand*{\footerfont}{\fontspec{Latin Modern Sans}}
+% \renewcommand*{\bodyfont}{\fontspec{Latin Modern Sans}}
+% \renewcommand*{\bodyfontlight}{\fontspec{Latin Modern Sans}}
+% Page margins
+\geometry{left=1.4cm, top=0.8cm, right=1.4cm, bottom=1.8cm, footskip=0.5cm}
+
+%-------------------------------------------------------------------------------
+% PACKAGES
+%-------------------------------------------------------------------------------
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{fontspec}
+\usepackage{pifont}
+\usepackage{booktabs}
+\usepackage{xspace}
+
+%-------------------------------------------------------------------------------
+% COLOR SETTING
+%-------------------------------------------------------------------------------
+% Main highlight color
+\definecolor{awesome}{HTML}{101CA4}
+
+% Disable colored section titles if you prefer a clean academic look
+\setbool{acvSectionColorHighlight}{false}
+
+% Social separator
+\renewcommand{\acvHeaderSocialSep}{\quad\textbar\quad}
+
+%-------------------------------------------------------------------------------
+% CUSTOM COMMANDS
+%-------------------------------------------------------------------------------
+\newcommand{\githubstars}[1]{[{\faGithubSquare}\,\ding{72} \textbf{#1}]}
+
+%-------------------------------------------------------------------------------
+% PERSONAL INFORMATION
+%-------------------------------------------------------------------------------
+% Format: \name{First Name}{Last Name}
+% Nếu muốn hiển thị kiểu quốc tế: Long Nguyen Khac
+\name{Long}{Nguyen Khac}
+
+% Nếu muốn hiển thị kiểu Việt Nam, dùng dòng dưới và comment dòng trên:
+% \name{Nguyen Khac}{Long}
+
+\position{Robotics Researcher{\enskip\cdotp\enskip}Control{\enskip\cdotp\enskip}Autonomous Systems}
+\address{Hanoi, Vietnam}
+
+% Replace with your real email
+\email{your.email [at] gmail [dot] com}
+
+% Personal website / portfolio
+\homepage{longnk.github.io}
+
+% GitHub username
+\github{longnk}
+
+% Replace with your real LinkedIn slug
+\linkedin{your-linkedin-id}
+
+% Uncomment if you already have Google Scholar
+% \googlescholar{your-google-scholar-id}{Google Scholar}
+
+% Optional extra info
+% \extrainfo{Final-year B.Eng. student in Automation and Informatics, VNU}
+
+\quote{``Developing intelligent robotic systems for long-endurance real-world autonomy.''}
+
+%-------------------------------------------------------------------------------
+\begin{document}
+
+%-------------------------------------------------------------------------------
+% HEADER
+%-------------------------------------------------------------------------------
+\makecvheader
+
+%-------------------------------------------------------------------------------
+% FOOTER
+%-------------------------------------------------------------------------------
+\makecvfooter
+  {\today}
+  {Long Nguyen Khac~~~·~~~Curriculum Vitae}
+  {\thepage}
+
+%-------------------------------------------------------------------------------
+% CV CONTENT
+%-------------------------------------------------------------------------------
+\input{cv/aboutme.tex}
+\input{cv/education.tex}
+\input{cv/research_experience.tex}
+\input{cv/teaching.tex}
+\input{cv/working_experience.tex}
+\input{cv/exchange_experience.tex}
+\input{cv/publications.tex}
+\input{cv/honor.tex}
+% \input{cv/skills.tex}
+\input{cv/certificates.tex}
+\input{cv/references.tex}
+
+% Optional sections
+% \input{cv/certificates.tex}
+% \input{cv/presentations.tex}
+% \input{cv/committees.tex}
+
+%-------------------------------------------------------------------------------
+\end{document}
