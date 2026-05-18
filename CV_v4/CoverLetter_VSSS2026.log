@@ -1,10 +1,10 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (MiKTeX 25.12) (preloaded format=xelatex 2026.5.8)  18 MAY 2026 15:08
+This is XeTeX, Version 3.141592653-2.6-0.999997 (MiKTeX 25.12) (preloaded format=xelatex 2026.5.8)  18 MAY 2026 15:05
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"e:/1. Tai lieu tu hoc/20. github/longnk-cv/CV_v4/cv_v4.tex"
-(e:/1. Tai lieu tu hoc/20. github/longnk-cv/CV_v4/cv_v4.tex
+**"e:/1. Tai lieu tu hoc/20. github/longnk-cv/CV_v4/CoverLetter_VSSS2026.tex"
+(e:/1. Tai lieu tu hoc/20. github/longnk-cv/CV_v4/CoverLetter_VSSS2026.tex
 LaTeX2e <2025-11-01>
 L3 programming layer <2025-12-24>
 (src/awesome-cv.cls
@@ -15,8 +15,8 @@ LaTeX Warning: You have requested document class `src/awesome-cv',
 Document Class: awesome-cv 2017/02/05 v1.6.1 Awesome Curriculum Vitae Class
 (C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
 Document Class: article 2025/01/22 v1.4n Standard LaTeX document class
-(C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/base\size10.clo
-File: size10.clo 2025/01/22 v1.4n Standard LaTeX file (size option)
+(C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/base\size12.clo
+File: size12.clo 2025/01/22 v1.4n Standard LaTeX file (size option)
 )
 \c@part=\count271
 \c@section=\count272
@@ -1226,30 +1226,29 @@ Package: wasysym 2020/01/19 v2.4 Wasy-2 symbol support package
 LaTeX Font Info:    Overwriting symbol font `wasy' in version `bold'
 (Font)                  U/wasy/m/n --> U/wasy/b/n on input line 93.
 ))
-(cv_v4.aux)
-\openout1 = `cv_v4.aux'.
+No file CoverLetter_VSSS2026.aux.
+\openout1 = `CoverLetter_VSSS2026.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
 *geometry* verbose mode - [ preamble ] result:
@@ -1269,12 +1268,12 @@ LaTeX Font Info:    ... okay on input line 43.
 * \topmargin=-88.78398pt
 * \headheight=12.0pt
 * \headsep=25.0pt
-* \topskip=10.0pt
+* \topskip=12.0pt
 * \footskip=9.95863pt
-* \marginparwidth=57.0pt
-* \marginparsep=11.0pt
+* \marginparwidth=35.0pt
+* \marginparsep=10.0pt
 * \columnsep=10.0pt
-* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
 * \hoffset=0.0pt
 * \voffset=0.0pt
 * \mag=1000
@@ -1284,321 +1283,30 @@ LaTeX Font Info:    ... okay on input line 43.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring OFF on input line 43.
+Package hyperref Info: Link coloring OFF on input line 30.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: wrapfig package is loaded.
 Package caption Info: End \AtBeginDocument code.
-\headertextwidth=\skip89
-\headerphotowidth=\skip90
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 10.00107pt on input line 49.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 7.00075pt on input line 49.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 5.00053pt on input line 49.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 9.99893pt on input line 49.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 6.99925pt on input line 49.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 4.99947pt on input line 49.
-LaTeX Font Info:    Trying to load font information for U+wasy on input line 49
-.
-(C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/wasysym\uwasy.fd
-File: uwasy.fd 2020/01/19 v2.4 Wasy-2 symbol font definitions
-)
-Overfull \hbox (2.22pt too wide) in paragraph at lines 49--49
-[]$[]$ $[]$$[]$ 
- []
-
-(cv/education.tex
-Underfull \hbox (badness 5607) in paragraph at lines 16--16
- []|[]\TU/lmroman10-regular.otf(0)/m/it/7.35 Hanoi, Vietnam[]|
- []
-
-
-Underfull \hbox (badness 2103) in paragraph at lines 16--16
- []|[]\TU/lmroman10-regular.otf(0)/m/it/7.25 Sep. 2021 – Dec. 2026[]|
- []
-
-) (cv/research_experience.tex
-Underfull \hbox (badness 10000) in paragraph at lines 17--17
- []|[]\TU/lmroman10-regular.otf(0)/m/it/7.35 Singapore[]|
- []
-
-
-Underfull \hbox (badness 3281) in paragraph at lines 17--17
- []|[]\TU/lmroman10-regular.otf(0)/m/it/7.25 Feb. 2026 – Present[]|
- []
-
-
-Underfull \hbox (badness 6110) in paragraph at lines 31--31
- []|[]\TU/lmroman10-regular.otf(0)/m/it/7.35 Chiayi, Taiwan[]|
- []
-
-
-Underfull \hbox (badness 2426) in paragraph at lines 31--31
- []|[]\TU/lmroman10-regular.otf(0)/m/it/7.25 May 2025 – Jul. 2025[]|
- []
-
-LaTeX Font Info:    Calculating math sizes for size <8.15> on input line 31.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 8.15086pt on input line 31.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 5.70555pt on input line 31.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 4.07542pt on input line 31.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 8.14911pt on input line 31.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 5.70435pt on input line 31.
-LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 4.07455pt on input line 31.
-
-LaTeX Font Warning: Font shape `U/wasy/m/n' in size <4.075> not available
-(Font)              size <5> substituted on input line 31.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 44--44
- []|[]\TU/lmroman10-regular.otf(0)/m/it/7.35 Remote[]|
- []
-
-
-Underfull \hbox (badness 3068) in paragraph at lines 44--44
- []|[]\TU/lmroman10-regular.otf(0)/m/it/7.25 Aug. 2025 – Present[]|
- []
-
-
-Underfull \hbox (badness 5607) in paragraph at lines 59--59
- []|[]\TU/lmroman10-regular.otf(0)/m/it/7.35 Hanoi, Vietnam[]|
- []
-
-
-Underfull \hbox (badness 3240) in paragraph at lines 59--59
- []|[]\TU/lmroman10-regular.otf(0)/m/it/7.25 Sep. 2022 – Present[]|
- []
-
-) (cv/publications.tex
-Underfull \hbox (badness 10000) in paragraph at lines 17--17
- []|[][]|
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 17--17
- []|[]\TU/lmroman10-regular.otf(0)/m/it/7.25 2024[]|
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 30--30
- []|[][]|
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 30--30
- []|[]\TU/lmroman10-regular.otf(0)/m/it/7.25 2023[]|
- []
-
-) (cv/teaching.tex
-Underfull \hbox (badness 5607) in paragraph at lines 18--18
- []|[]\TU/lmroman10-regular.otf(0)/m/it/7.35 Hanoi, Vietnam[]|
- []
-
-
-Underfull \hbox (badness 2103) in paragraph at lines 18--18
- []|[]\TU/lmroman10-regular.otf(0)/m/it/7.25 Sep. 2023 – Dec. 2024[]|
- []
-
-
-Underfull \hbox (badness 5607) in paragraph at lines 30--30
- []|[]\TU/lmroman10-regular.otf(0)/m/it/7.35 Hanoi, Vietnam[]|
- []
-
-
-Underfull \hbox (badness 2285) in paragraph at lines 30--30
- []|[]\TU/lmroman10-regular.otf(0)/m/it/7.25 Jul. 2022 – Dec. 2022[]|
- []
-
-) (cv/working_experience.tex
-Underfull \hbox (badness 5607) in paragraph at lines 16--16
- []|[]\TU/lmroman10-regular.otf(0)/m/it/7.35 Hanoi, Vietnam[]|
- []
-
-
-Underfull \hbox (badness 1990) in paragraph at lines 16--16
- []|[]\TU/lmroman10-regular.otf(0)/m/it/7.25 Mar. 2025 – May 2025[]|
- []
-
-
-Underfull \hbox (badness 5607) in paragraph at lines 29--29
- []|[]\TU/lmroman10-regular.otf(0)/m/it/7.35 Hanoi, Vietnam[]|
- []
-
-
-Underfull \hbox (badness 2368) in paragraph at lines 29--29
- []|[]\TU/lmroman10-regular.otf(0)/m/it/7.25 Jul. 2023 – Sep. 2023[]|
- []
-
 
 Package fancyhdr Warning: \footskip is too small (9.95863pt): 
-(fancyhdr)                Make it at least 12.0pt, for example:
-(fancyhdr)                \setlength{\footskip}{12.0pt}.
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\footskip}{14.49998pt}.
 
 [1
 
-]) (cv/exchange_experience.tex
-Underfull \hbox (badness 10000) in paragraph at lines 16--16
- []|[]\TU/lmroman10-regular.otf(0)/m/it/7.35 Singapore[]|
- []
-
-
-Underfull \hbox (badness 1968) in paragraph at lines 16--16
- []|[]\TU/lmroman10-regular.otf(0)/m/it/7.25 Feb. 2026 – Mar. 2026[]|
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 28--28
- []|[]\TU/lmroman10-regular.otf(0)/m/it/7.35 Singapore[]|
- []
-
-
-Underfull \hbox (badness 1975) in paragraph at lines 28--28
- []|[]\TU/lmroman10-regular.otf(0)/m/it/7.25 Aug. 2025 – Dec. 2025[]|
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 40--40
- []|[]\TU/lmroman10-regular.otf(0)/m/it/7.35 Taiwan[]|
- []
-
-
-Underfull \hbox (badness 2426) in paragraph at lines 40--40
- []|[]\TU/lmroman10-regular.otf(0)/m/it/7.25 May 2025 – Jul. 2025[]|
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 51--51
- []|[]\TU/lmroman10-regular.otf(0)/m/it/7.35 Indonesia[]|
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 51--51
- []|[]\TU/lmroman10-regular.otf(0)/m/it/7.25 Feb. 2025[]|
- []
-
-
-Underfull \hbox (badness 2573) in paragraph at lines 62--62
- []|[]\TU/lmroman10-regular.otf(0)/m/it/7.35 Vietnam & Singapore[]|
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 62--62
- []|[]\TU/lmroman10-regular.otf(0)/m/it/7.25 Feb. 2024[]|
- []
-
-) (cv/honor.tex
-Underfull \hbox (badness 2080) in paragraph at lines 9--9
- []|[]\TU/lmroman10-regular.otf(0)/m/it/7.55 Singapore[]|
- []
-
-
-Underfull \hbox (badness 3815) in paragraph at lines 15--15
- []|[]\TU/lmroman10-regular.otf(0)/m/it/7.55 Japan[]|
- []
-
-
-Underfull \hbox (badness 2080) in paragraph at lines 21--21
- []|[]\TU/lmroman10-regular.otf(0)/m/it/7.55 Singapore[]|
- []
-
-
-Underfull \hbox (badness 2080) in paragraph at lines 27--27
- []|[]\TU/lmroman10-regular.otf(0)/m/it/7.55 Singapore[]|
- []
-
-
-Underfull \hbox (badness 2080) in paragraph at lines 33--33
- []|[]\TU/lmroman10-regular.otf(0)/m/it/7.55 Singapore[]|
- []
-
-
-Underfull \hbox (badness 3068) in paragraph at lines 39--39
- []|[]\TU/lmroman10-regular.otf(0)/m/it/7.55 Taiwan[]|
- []
-
-
-Underfull \hbox (badness 2065) in paragraph at lines 45--45
- []|[]\TU/lmroman10-regular.otf(0)/m/it/7.55 Indonesia[]|
- []
-
-
-Underfull \hbox (badness 2547) in paragraph at lines 51--51
- []|[]\TU/lmroman10-regular.otf(0)/m/it/7.55 Vietnam[]|
- []
-
-
-Underfull \hbox (badness 2547) in paragraph at lines 63--63
- []|[]\TU/lmroman10-regular.otf(0)/m/it/7.55 Vietnam[]|
- []
-
-
-Underfull \hbox (badness 4266) in paragraph at lines 69--69
- []|[]\TU/lmroman10-regular.otf(0)/m/it/7.55 VNU[]|
- []
-
-) (cv/skills.tex) (cv/references.tex
-Underfull \hbox (badness 10000) in paragraph at lines 15--15
- []|[][]|
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 27--27
- []|[][]|
- []
-
-
-Underfull \hbox (badness 1067) in paragraph at lines 39--39
- []|[]\TU/lmroman10-regular.otf(0)/m/it/7.35 VNU International School[]|
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 39--39
- []|[][]|
- []
-
-
-Underfull \hbox (badness 1067) in paragraph at lines 51--51
- []|[]\TU/lmroman10-regular.otf(0)/m/it/7.35 VNU International School[]|
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 51--51
- []|[][]|
- []
-
-)
-
-Package fancyhdr Warning: \footskip is too small (9.95863pt): 
-(fancyhdr)                Make it at least 12.0pt, for example:
-(fancyhdr)                \setlength{\footskip}{12.0pt}.
-
-[2] (cv_v4.aux)
+] (CoverLetter_VSSS2026.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2025-12-24>
  ***********
-
-
-LaTeX Font Warning: Size substitutions with differences
-(Font)              up to 0.925pt have occurred.
-
  ) 
 Here is how much of TeX's memory you used:
- 35959 strings out of 402987
- 721149 string characters out of 5448732
- 1357971 words of memory out of 5000000
- 64154 multiletter control sequences out of 15000+600000
- 631975 words of font info for 116 fonts, out of 8000000 for 9000
+ 35755 strings out of 402987
+ 714492 string characters out of 5448732
+ 1325090 words of memory out of 5000000
+ 64036 multiletter control sequences out of 15000+600000
+ 628525 words of font info for 68 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 131i,11n,135p,614b,440s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 131i,11n,135p,778b,367s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on cv_v4.pdf (2 pages).
+Output written on CoverLetter_VSSS2026.pdf (1 page).

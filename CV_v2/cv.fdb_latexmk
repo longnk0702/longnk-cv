@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1778425729.63382 "e:/1. Tai lieu tu hoc/20. github/longnk-cv/CV_v2/cv.tex" "cv.pdf" "cv" 1778425731.18521 0
-  "C:/Users/User/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1778223064 486435 a70cab612dc400ae436e9872f6dc40b9 ""
+["pdflatex"] 1779086682.99056 "e:/1. Tai lieu tu hoc/20. github/longnk-cv/CV_v2/cv.tex" "cv.pdf" "cv" 1779086685.83024 0
+  "C:/Users/User/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1778433613 745120 5075d726c2a3fcf0a440098651c49930 ""
   "C:/Users/User/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1095.pk" 1778220872 12668 3a9c5a38f7eb858fa49bef4084fb3da0 ""
   "C:/Users/User/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1777862938 13333002 2662d7415d6bba40e7bdff750bef4f5e ""
   "C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/fontawesome5/fa5brands0.enc" 1651500229 2920 d63721872b8c77041b88e51b8f7c291d ""
@@ -108,10 +108,10 @@
   "C:/Users/User/AppData/Local/Programs/MiKTeX/tex/latex/tools/tabularx.sty" 1761901070 7243 a2c17f18e2c9b702b84fad03d5f9c78b ""
   "C:/Users/User/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "C:/Users/User/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1729265222 55384 b454dec21c2d9f45ec0b793f0995b992 ""
-  "cv.aux" 1778425730 733 f44d4b0633fd92cb1243f18bc97d31ff "pdflatex"
-  "cv.out" 1778425730 658 c0a5dd9cfbd8e04fec5b6df9f7b14e45 "pdflatex"
-  "cv.tex" 1778221404 6379 56241140bb8ba7f568ff43679e9a9795 ""
-  "e:/1. Tai lieu tu hoc/20. github/longnk-cv/CV_v2/cv.tex" 1778221404 6379 56241140bb8ba7f568ff43679e9a9795 ""
+  "cv.aux" 1779086685 733 f44d4b0633fd92cb1243f18bc97d31ff "pdflatex"
+  "cv.out" 1779086685 658 c0a5dd9cfbd8e04fec5b6df9f7b14e45 "pdflatex"
+  "cv.tex" 1779086678 6379 56241140bb8ba7f568ff43679e9a9795 ""
+  "e:/1. Tai lieu tu hoc/20. github/longnk-cv/CV_v2/cv.tex" 1779086678 6379 56241140bb8ba7f568ff43679e9a9795 ""
   (generated)
   "cv.aux"
   "cv.log"
