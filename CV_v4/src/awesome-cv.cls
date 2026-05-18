@@ -436,8 +436,14 @@
 \newcommand{\acvHeaderAfterQuoteSkip}{1.4mm}
 
 % Others
-\newcommand{\acvSectionTopSkip}{1.35mm}
-\newcommand{\acvSectionContentTopSkip}{0.65mm}
+% Compact, professional spacing tuned for a 2-page academic CV.
+\newcommand{\acvSectionTopSkip}{1.10mm}
+\newcommand{\acvSectionContentTopSkip}{0.35mm}
+\newcommand{\acvEntryTopSkip}{0.10mm}
+\newcommand{\acvEntryBottomSkip}{0.30mm}
+% Space between the position/date line and the bullet list/text below.
+% More negative = tighter. Recommended range: -0.65mm to -1.10mm.
+\newcommand{\acvEntryDescriptionTopSkip}{-0.90mm}
 
 
 %-------------------------------------------------------------------------------
@@ -674,18 +680,18 @@
 % Define an entry of cv information
 % Usage: \cventry{<position>}{<title>}{<location>}{<date>}{<description>}
 \newcommand*{\cventry}[5]{%
-  \par\addvspace{0.25mm}%
+  \par\addvspace{\acvEntryTopSkip}%
   \noindent%
   \setlength\tabcolsep{0pt}%
   \setlength{\extrarowheight}{0pt}%
   \begin{tabular*}{\textwidth}{@{}L{\dimexpr\textwidth-3.55cm\relax}@{\extracolsep{\fill}}R{3.55cm}@{}}
     \ifempty{#2#3}
-      {\entrypositionstyle{#1} & \entrydatestyle{#4} \\[-0.15mm]}
-      {\entrytitlestyle{#2} & \entrylocationstyle{#3} \\
-       \entrypositionstyle{#1} & \entrydatestyle{#4} \\[-0.1mm]}
-    \multicolumn{2}{@{}L{\textwidth}@{}}{\descriptionstyle{#5}} \\
+      {\entrypositionstyle{#1} & \entrydatestyle{#4} \\[\acvEntryDescriptionTopSkip]}
+      {\entrytitlestyle{#2} & \entrylocationstyle{#3} \\[-0.25mm]
+       \entrypositionstyle{#1} & \entrydatestyle{#4} \\[\acvEntryDescriptionTopSkip]}
+    \multicolumn{2}{@{}L{\textwidth}@{}}{\descriptionstyle{#5}} \\[-0.20mm]
   \end{tabular*}%
-  \par\addvspace{0.45mm}%
+  \par\addvspace{\acvEntryBottomSkip}%
 }
 
 % Define an environment for cvsubentry
@@ -724,11 +730,11 @@
 \newcommand*{\cvhonor}[4]{%
   \honordatestyle{#4} &%
   \honorpositionstyle{#1}\ifempty{#2}{}{, \honortitlestyle{#2}} &%
-  \honorlocationstyle{#3} \\[0.18mm]%
+  \honorlocationstyle{#3} \\[0.10mm]%
 }
 
 \newcommand*{\cvhonorworanking}[3]{%
-  \honordatestyle{#3} & \honortitlestyle{#1} & \honorlocationstyle{#2} \\[0.18mm]%
+  \honordatestyle{#3} & \honortitlestyle{#1} & \honorlocationstyle{#2} \\[0.10mm]%
 }
 
 
@@ -746,24 +752,27 @@
 % Define a line of cv information(skill)
 % Usage: \cvskill{<type>}{<skillset>}
 \newcommand*{\cvskill}[2]{%
-  \skilltypestyle{#1} & \skillsetstyle{#2} \\[0.20mm]%
+  \skilltypestyle{#1} & \skillsetstyle{#2} \\[0.10mm]%
 }
 
 % Define an environment for cvitems(for cventry)
 \newenvironment{cvitems}{%
+  % Pull the first bullet closer to the position/date line in \cventry.
+  \vspace{-0.55mm}%
   \begin{itemize}[
-    leftmargin=1.45em,
-    labelsep=0.45em,
-    topsep=0.06mm,
+    leftmargin=1.35em,
+    labelsep=0.40em,
+    topsep=0pt,
     partopsep=0pt,
     parsep=0pt,
-    itemsep=0.03mm
+    itemsep=0.02mm
   ]%
     \RaggedRight%
     \setlength{\parskip}{0pt}%
     \renewcommand{\labelitemi}{\raisebox{0.25ex}{\tiny\textbullet}}%
 }{%
   \end{itemize}%
+  \vspace{-0.30mm}%
 }
 
 
