@@ -436,7 +436,7 @@
 \newcommand{\acvHeaderAfterQuoteSkip}{1.20mm}
 
 % Others: balanced 2-page academic CV spacing
-\newcommand{\acvSectionTopSkip}{3.25mm}
+\newcommand{\acvSectionTopSkip}{2.25mm}
 \newcommand{\acvSectionContentTopSkip}{0.45mm}
 \newcommand{\acvEntryTopSkip}{0.18mm}
 \newcommand{\acvEntryBottomSkip}{0.65mm}
@@ -716,12 +716,14 @@
 }
 
 % Define an environment for cvhonor
+% Modified layout: honor/award description on the left, year on the right.
+% The location/country argument in \cvhonor is kept for backward compatibility but not printed.
 \newenvironment{cvhonors}{%
   \vspace{\acvSectionContentTopSkip}%
   \noindent%
   \setlength\tabcolsep{0pt}%
   \setlength{\extrarowheight}{0pt}%
-  \begin{tabular*}{\textwidth}{@{}L{1.25cm}L{\dimexpr\textwidth-4.30cm\relax}@{\extracolsep{\fill}}R{3.05cm}@{}}
+  \begin{tabular*}{\textwidth}{@{}L{\dimexpr\textwidth-1.5cm\relax}@{\extracolsep{\fill}}R{1.5cm}@{}}
 }{%
   \end{tabular*}%
   \par\vspace{0mm}%
@@ -729,10 +731,10 @@
 
 % Define a line of cv information(honor, award or something else)
 % Usage: \cvhonor{<position>}{<title>}{<location>}{<date>}
+% Note: <location> is intentionally ignored in the modified 2-column honors layout.
 \newcommand*{\cvhonor}[4]{%
-  \honordatestyle{#4} &%
   \honorpositionstyle{#1}\ifempty{#2}{}{, \honortitlestyle{#2}} &%
-  \honorlocationstyle{#3} \\[0.12mm]%
+  \honordatestyle{#4} \\[0.12mm]%
 }
 
 \newcommand*{\cvhonorworanking}[3]{%
@@ -746,7 +748,7 @@
   \noindent%
   \setlength\tabcolsep{0pt}%
   \setlength{\extrarowheight}{0pt}%
-  \begin{tabular*}{\textwidth}{@{}L{2.65cm}@{\hspace{0.35cm}}L{\dimexpr\textwidth-3.00cm\relax}@{}}
+  \begin{tabular*}{\textwidth}{@{}L{3.5cm}@{\hspace{0.35cm}}L{\dimexpr\textwidth-3.00cm\relax}@{}}
 }{%
   \end{tabular*}%
   \par\vspace{0mm}%
