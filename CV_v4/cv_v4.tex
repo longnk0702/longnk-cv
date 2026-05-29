@@ -12,22 +12,8 @@
 \raggedbottom
 \setlength{\parskip}{0pt}
 \setlength{\parindent}{0pt}
-\usepackage{enumitem}
-\usepackage{tabularx}
-\usepackage{enumitem}
+% enumitem is loaded by awesome-cv.cls; tabularx is no longer needed for synced sections.
 
-%-------------------------------------------------------------------------------
-% REFERENCE CONTACT STYLE
-%-------------------------------------------------------------------------------
-\newcommand{\cvrefblue}[1]{{\color{awesome}#1}}
-
-\newcommand{\cvrefwebsite}[2]{%
-  \item \cvrefblue{\faGlobe\ Website: \href{#1}{\cvrefblue{#2}}}%
-}
-
-\newcommand{\cvrefemail}[1]{%
-  \item \cvrefblue{\faEnvelope\ Contact: \href{mailto:#1}{\cvrefblue{#1}}}%
-}
 
 %-------------------------------------------------------------------------------
 % COLOR SETTING
@@ -38,8 +24,7 @@
 
 \setbool{acvSectionColorHighlight}{false}
 
-% Make contact/social links in the header blue
-\renewcommand*{\headersocialstyle}[1]{{\fontsize{6.8pt}{1em}\headerfont\color{awesome} #1}}
+% Header/contact link styling is centralized in awesome-cv.cls.
 
 %-------------------------------------------------------------------------------
 % PERSONAL INFORMATION

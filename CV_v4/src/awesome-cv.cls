@@ -189,6 +189,9 @@
   \ifbool{acvSectionColorHighlight}{{\color{awesome}#1#2#3}}{#1#2#3}%
 }
 
+% Unified colored link command for CV body sections
+\newcommand{\acvlink}[2]{\href{#1}{\textcolor{awesome}{#2}}}
+
 
 %-------------------------------------------------------------------------------
 %                Configuration for fonts
@@ -206,48 +209,64 @@
 % Header
 \newcommand*{\headerfirstnamestyle}[1]{{\fontsize{24.5pt}{26.2pt}\selectfont\headerfont\bfseries\color{text} #1}}
 \newcommand*{\headerlastnamestyle}[1]{{\fontsize{24.5pt}{26.2pt}\selectfont\headerfontlight\color{graytext} #1}}
-\newcommand*{\headerpositionstyle}[1]{{\fontsize{7.15pt}{8.05pt}\selectfont\bodyfont\upshape\color{awesome} #1}}
-\newcommand*{\headeraddressstyle}[1]{{\fontsize{6.65pt}{7.35pt}\selectfont\headerfont\upshape\color{text} #1}}
-\newcommand*{\headersocialstyle}[1]{{\fontsize{6.35pt}{7.2pt}\selectfont\headerfont\color{text} #1}}
-\newcommand*{\headerquotestyle}[1]{{\fontsize{7.8pt}{9pt}\selectfont\bodyfont\itshape\color{darktext} #1}}
-\newcommand*{\footerstyle}[1]{{\fontsize{6.8pt}{7.4pt}\selectfont\footerfont\upshape\color{lighttext} #1}}
+\newcommand*{\headerpositionstyle}[1]{{\fontsize{7.55pt}{8.55pt}\selectfont\bodyfont\upshape\color{awesome} #1}}
+\newcommand*{\headeraddressstyle}[1]{{\fontsize{7.00pt}{7.80pt}\selectfont\headerfont\upshape\color{text} #1}}
+\newcommand*{\headersocialstyle}[1]{{\fontsize{7.00pt}{7.80pt}\selectfont\headerfont\color{awesome} #1}}
+\newcommand*{\headerquotestyle}[1]{{\fontsize{8.0pt}{9.2pt}\selectfont\bodyfont\itshape\color{darktext} #1}}
+\newcommand*{\footerstyle}[1]{{\fontsize{7.0pt}{7.8pt}\selectfont\footerfont\upshape\color{lighttext} #1}}
 
 % Section
-\newcommand*{\sectionstyle}[1]{{\fontsize{11.85pt}{12.85pt}\selectfont\bodyfont\bfseries\color{text}\@sectioncolor #1}}
-\newcommand*{\subsectionstyle}[1]{{\fontsize{9.5pt}{10.5pt}\selectfont\bodyfont\bfseries\textcolor{text}{#1}}}
-\newcommand*{\paragraphstyle}{\fontsize{8.25pt}{9.45pt}\selectfont\bodyfontlight\upshape\color{text}}
+\newcommand*{\sectionstyle}[1]{{\fontsize{12.0pt}{13.0pt}\selectfont\bodyfont\bfseries\color{text}\@sectioncolor #1}}
+\newcommand*{\subsectionstyle}[1]{{\fontsize{9.6pt}{10.6pt}\selectfont\bodyfont\bfseries\textcolor{text}{#1}}}
+\newcommand*{\paragraphstyle}{\fontsize{8.55pt}{10.05pt}\selectfont\bodyfontlight\upshape\color{text}}
 
 % Entry
-\newcommand*{\entrytitlestyle}[1]{{\fontsize{9.75pt}{9.75pt}\selectfont\bodyfont\bfseries\color{darktext} #1}}
-\newcommand*{\entrypositionstyle}[1]{{\fontsize{7.35pt}{8.05pt}\selectfont\bodyfont\upshape\color{graytext} #1}}
-\newcommand*{\entrydatestyle}[1]{{\fontsize{7.25pt}{8.00pt}\selectfont\bodyfontlight\itshape\color{graytext} #1}}
-\newcommand*{\entrylocationstyle}[1]{{\fontsize{7.35pt}{8.00pt}\selectfont\bodyfontlight\itshape\color{awesome} #1}}
-\newcommand*{\descriptionstyle}[1]{{\fontsize{8.15pt}{9.35pt}\selectfont\bodyfontlight\upshape\color{text} #1}}
+\newcommand*{\entrytitlestyle}[1]{{\fontsize{9.65pt}{10.75pt}\selectfont\bodyfont\bfseries\color{darktext} #1}}
+\newcommand*{\entrypositionstyle}[1]{{\fontsize{8.00pt}{8.90pt}\selectfont\bodyfont\upshape\color{graytext} #1}}
+\newcommand*{\entrydatestyle}[1]{{\fontsize{7.80pt}{8.65pt}\selectfont\bodyfontlight\itshape\color{graytext} #1}}
+\newcommand*{\entrylocationstyle}[1]{{\fontsize{7.80pt}{8.65pt}\selectfont\bodyfontlight\itshape\color{awesome} #1}}
+\newcommand*{\descriptionstyle}[1]{{\fontsize{8.55pt}{10.05pt}\selectfont\bodyfontlight\upshape\color{text} #1}}
 
 % Subentry
-\newcommand*{\subentrytitlestyle}[1]{{\fontsize{7.4pt}{8.2pt}\selectfont\bodyfont\mdseries\color{graytext} #1}}
-\newcommand*{\subentrypositionstyle}[1]{{\fontsize{6.8pt}{7.5pt}\selectfont\bodyfont\upshape\color{graytext} #1}}
-\newcommand*{\subentrydatestyle}[1]{{\fontsize{6.8pt}{7.5pt}\selectfont\bodyfontlight\itshape\color{graytext} #1}}
-\newcommand*{\subentrylocationstyle}[1]{{\fontsize{6.8pt}{7.5pt}\selectfont\bodyfontlight\itshape\color{awesome} #1}}
-\newcommand*{\subdescriptionstyle}[1]{{\fontsize{7.5pt}{8.4pt}\selectfont\bodyfontlight\upshape\color{text} #1}}
+\newcommand*{\subentrytitlestyle}[1]{{\fontsize{8.05pt}{8.95pt}\selectfont\bodyfont\mdseries\color{graytext} #1}}
+\newcommand*{\subentrypositionstyle}[1]{{\fontsize{7.55pt}{8.40pt}\selectfont\bodyfont\upshape\color{graytext} #1}}
+\newcommand*{\subentrydatestyle}[1]{{\fontsize{7.55pt}{8.40pt}\selectfont\bodyfontlight\itshape\color{graytext} #1}}
+\newcommand*{\subentrylocationstyle}[1]{{\fontsize{7.55pt}{8.40pt}\selectfont\bodyfontlight\itshape\color{awesome} #1}}
+\newcommand*{\subdescriptionstyle}[1]{{\fontsize{7.90pt}{8.85pt}\selectfont\bodyfontlight\upshape\color{text} #1}}
 
 % Honor
-\newcommand*{\honortitlestyle}[1]{{\fontsize{7.75pt}{8.55pt}\selectfont\bodyfont\color{graytext} #1}}
-\newcommand*{\honorpositionstyle}[1]{{\fontsize{7.75pt}{8.55pt}\selectfont\bodyfont\bfseries\color{darktext} #1}}
-\newcommand*{\honordatestyle}[1]{{\fontsize{7.55pt}{8.25pt}\selectfont\bodyfont\color{graytext} #1}}
-\newcommand*{\honorlocationstyle}[1]{{\fontsize{7.55pt}{8.25pt}\selectfont\bodyfontlight\itshape\color{awesome} #1}}
+\newcommand*{\honortitlestyle}[1]{{\fontsize{8.15pt}{9.05pt}\selectfont\bodyfont\color{graytext} #1}}
+\newcommand*{\honorpositionstyle}[1]{{\fontsize{8.15pt}{9.05pt}\selectfont\bodyfont\bfseries\color{darktext} #1}}
+\newcommand*{\honordatestyle}[1]{{\fontsize{7.85pt}{8.70pt}\selectfont\bodyfont\color{graytext} #1}}
+\newcommand*{\honorlocationstyle}[1]{{\fontsize{7.85pt}{8.70pt}\selectfont\bodyfontlight\itshape\color{awesome} #1}}
 
 % Skill
-\newcommand*{\skilltypestyle}[1]{{\fontsize{8.00pt}{8.85pt}\selectfont\bodyfont\bfseries\color{darktext} #1}}
-\newcommand*{\skillsetstyle}[1]{{\fontsize{7.90pt}{8.95pt}\selectfont\bodyfontlight\color{text} #1}}
+\newcommand*{\skilltypestyle}[1]{{\fontsize{8.30pt}{9.20pt}\selectfont\bodyfont\bfseries\color{darktext} #1}}
+\newcommand*{\skillsetstyle}[1]{{\fontsize{8.25pt}{9.20pt}\selectfont\bodyfontlight\color{text} #1}}
+
+% Publication
+\newcommand*{\publicationstyle}[1]{{\fontsize{8.55pt}{10.05pt}\selectfont\bodyfontlight\upshape\color{text} #1}}
+\newcommand*{\publicationauthorstyle}[1]{{\fontsize{8.55pt}{10.05pt}\selectfont\bodyfont\bfseries\color{darktext} #1}}
+\newcommand*{\publicationtitlestyle}[1]{{\fontsize{8.55pt}{10.05pt}\selectfont\bodyfontlight\itshape\color{text} #1}}
+\newcommand*{\publicationvenuestyle}[1]{{\fontsize{8.45pt}{9.95pt}\selectfont\bodyfontlight\upshape\color{text} #1}}
+\newcommand*{\publicationitemstyle}[1]{{\fontsize{8.25pt}{9.65pt}\selectfont\bodyfontlight\upshape\color{text} #1}}
+\newcommand*{\publicationlabelstyle}[1]{{\bodyfont\bfseries\itshape\color{darktext} #1}}
+
+% Reference
+\newcommand*{\referencenamestyle}[1]{{\fontsize{8.65pt}{9.55pt}\selectfont\bodyfont\bfseries\color{darktext} #1}}
+\newcommand*{\referencepositionstyle}[1]{{\fontsize{8.15pt}{9.25pt}\selectfont\bodyfontlight\upshape\color{text} #1}}
+\newcommand*{\referenceitemstyle}[1]{{\fontsize{8.05pt}{9.05pt}\selectfont\bodyfontlight\upshape\color{text} #1}}
+
+% Icon color for References
+\newcommand*{\referenceiconstyle}[1]{{\textcolor{awesome}{#1}}}
 
 % Cover letter
-\newcommand*{\lettersectionstyle}[1]{{\fontsize{12.5pt}{13.5pt}\selectfont\bodyfont\bfseries\color{text}\@sectioncolor #1}}
+\newcommand*{\lettersectionstyle}[1]{{\fontsize{12.4pt}{13.4pt}\selectfont\bodyfont\bfseries\color{text}\@sectioncolor #1}}
 \newcommand*{\recipientaddressstyle}[1]{{\fontsize{8.5pt}{9.5pt}\selectfont\bodyfont\upshape\color{graytext} #1}}
 \newcommand*{\recipienttitlestyle}[1]{{\fontsize{10pt}{11pt}\selectfont\bodyfont\bfseries\color{darktext} #1}}
 \newcommand*{\lettertitlestyle}[1]{{\fontsize{9.2pt}{10.2pt}\selectfont\bodyfontlight\bfseries\color{darktext} \underline{#1}}}
 \newcommand*{\letterdatestyle}[1]{{\fontsize{8.5pt}{9.5pt}\selectfont\bodyfontlight\itshape\color{graytext} #1}}
-\newcommand*{\lettertextstyle}{\fontsize{9pt}{11.8pt}\selectfont\bodyfontlight\upshape\color{graytext}}
+\newcommand*{\lettertextstyle}{\fontsize{9pt}{11.4pt}\selectfont\bodyfontlight\upshape\color{graytext}}
 \newcommand*{\letternamestyle}[1]{{\fontsize{9.2pt}{10.2pt}\selectfont\bodyfont\bfseries\color{darktext} #1}}
 \newcommand*{\letterenclosurestyle}[1]{{\fontsize{8.5pt}{9.5pt}\selectfont\bodyfontlight\itshape\color{lighttext} #1}}
 
@@ -432,15 +451,15 @@
 \newcommand{\acvHeaderAfterAddressSkip}{0mm}
 \newcommand{\acvHeaderIconSep}{\hspace{0.35em}}
 \newcommand{\acvHeaderSocialSep}{\hspace{0.85em}\textbar\hspace{0.85em}}
-\newcommand{\acvHeaderAfterSocialSkip}{2.00mm}
+\newcommand{\acvHeaderAfterSocialSkip}{2.10mm}
 \newcommand{\acvHeaderAfterQuoteSkip}{1.20mm}
 
 % Others: balanced 2-page academic CV spacing
-\newcommand{\acvSectionTopSkip}{2.25mm}
-\newcommand{\acvSectionContentTopSkip}{0.45mm}
-\newcommand{\acvEntryTopSkip}{0.18mm}
-\newcommand{\acvEntryBottomSkip}{0.65mm}
-\newcommand{\acvEntryDescriptionTopSkip}{-3.00mm}
+\newcommand{\acvSectionTopSkip}{3.15mm}
+\newcommand{\acvSectionContentTopSkip}{0.90mm}
+\newcommand{\acvEntryTopSkip}{0.55mm}
+\newcommand{\acvEntryBottomSkip}{1.15mm}
+\newcommand{\acvEntryDescriptionTopSkip}{-2.15mm}
 
 
 %-------------------------------------------------------------------------------
@@ -734,7 +753,7 @@
 % Note: <location> is intentionally ignored in the modified 2-column honors layout.
 \newcommand*{\cvhonor}[4]{%
   \honorpositionstyle{#1}\ifempty{#2}{}{, \honortitlestyle{#2}} &%
-  \honordatestyle{#4} \\[0.12mm]%
+  \honordatestyle{#4} \\[0.28mm]%
 }
 
 \newcommand*{\cvhonorworanking}[3]{%
@@ -748,7 +767,7 @@
   \noindent%
   \setlength\tabcolsep{0pt}%
   \setlength{\extrarowheight}{0pt}%
-  \begin{tabular*}{\textwidth}{@{}L{3.5cm}@{\hspace{0.35cm}}L{\dimexpr\textwidth-3.00cm\relax}@{}}
+  \begin{tabular*}{\textwidth}{@{}L{2.70cm}@{\hspace{0.35cm}}L{\dimexpr\textwidth-3.05cm\relax}@{}}
 }{%
   \end{tabular*}%
   \par\vspace{0mm}%
@@ -756,7 +775,72 @@
 % Define a line of cv information(skill)
 % Usage: \cvskill{<type>}{<skillset>}
 \newcommand*{\cvskill}[2]{%
-  \skilltypestyle{#1} & \skillsetstyle{#2} \\[0.12mm]%
+  \skilltypestyle{#1} & \skillsetstyle{#2} \\[0.28mm]%
+}
+
+% Define an environment for cvpublications
+\newenvironment{cvpublications}{%
+  \vspace{\acvSectionContentTopSkip}%
+  \begin{enumerate}[
+    label=\arabic*.,
+    leftmargin=1.45em,
+    labelsep=0.45em,
+    topsep=0.10mm,
+    itemsep=0.75mm,
+    parsep=0pt,
+    partopsep=0pt
+  ]%
+  \RaggedRight%
+  \setlength{\parskip}{0pt}%
+}{%
+  \end{enumerate}%
+  \par\vspace{0mm}%
+}
+
+% Define publication sub-items
+\newenvironment{cvpubitems}{%
+  \begin{itemize}[
+    leftmargin=1.45em,
+    labelsep=0.42em,
+    topsep=0.20mm,
+    itemsep=0.25mm,
+    parsep=0pt,
+    partopsep=0pt
+  ]%
+  \RaggedRight%
+  \setlength{\parskip}{0pt}%
+  \renewcommand{\labelitemi}{\raisebox{0.24ex}{\fontsize{2.9pt}{2.9pt}\selectfont\textbullet}}%
+}{%
+  \end{itemize}%
+}
+
+% Publication field label
+\newcommand*{\pubfield}[1]{\publicationlabelstyle{#1:}}
+
+% Define an environment for cvreferences
+\newenvironment{cvreferences}{%
+  \vspace{\acvSectionContentTopSkip}%
+}{%
+  \par\vspace{0mm}%
+}
+
+% Define a reference entry
+% Usage: \cvreference{name}{position}{website-url}{website-text}{email}
+\newcommand*{\cvreference}[5]{%
+  \par\addvspace{0.42mm}%
+  \noindent%
+  \setlength\tabcolsep{0pt}%
+  \setlength{\extrarowheight}{0pt}%
+  \begin{tabular*}{\textwidth}{@{}L{0.36\textwidth}@{\extracolsep{\fill}}R{0.62\textwidth}@{}}
+    \referencenamestyle{#1} & \referencepositionstyle{#2} \\[-0.05mm]
+    \multicolumn{2}{@{}L{\textwidth}@{}}{%
+      \referenceitemstyle{%
+      \referenceiconstyle{\faHome}\ \acvlink{#3}{#4}%
+      \quad\textbar\quad
+      \referenceiconstyle{\faEnvelope}\ \acvlink{mailto:#5}{#5}%
+    }%
+    }\\[0.55mm]
+  \end{tabular*}%
 }
 
 % Define an environment for cvitems(for cventry)
@@ -765,10 +849,10 @@
   \begin{itemize}[
     leftmargin=1.35em,
     labelsep=0.38em,
-    topsep=0pt,
+    topsep=0.15mm,
     partopsep=0pt,
     parsep=0pt,
-    itemsep=0.08mm
+    itemsep=0.26mm
   ]%
     \RaggedRight%
     \setlength{\parskip}{0pt}%
