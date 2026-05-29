@@ -218,7 +218,7 @@
 \newcommand*{\paragraphstyle}{\fontsize{8.25pt}{9.45pt}\selectfont\bodyfontlight\upshape\color{text}}
 
 % Entry
-\newcommand*{\entrytitlestyle}[1]{{\fontsize{8.75pt}{9.75pt}\selectfont\bodyfont\bfseries\color{darktext} #1}}
+\newcommand*{\entrytitlestyle}[1]{{\fontsize{9.75pt}{9.75pt}\selectfont\bodyfont\bfseries\color{darktext} #1}}
 \newcommand*{\entrypositionstyle}[1]{{\fontsize{7.35pt}{8.05pt}\selectfont\bodyfont\upshape\color{graytext} #1}}
 \newcommand*{\entrydatestyle}[1]{{\fontsize{7.25pt}{8.00pt}\selectfont\bodyfontlight\itshape\color{graytext} #1}}
 \newcommand*{\entrylocationstyle}[1]{{\fontsize{7.35pt}{8.00pt}\selectfont\bodyfontlight\itshape\color{awesome} #1}}

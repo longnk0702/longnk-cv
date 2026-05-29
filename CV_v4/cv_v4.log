@@ -1,10 +1,13 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (MiKTeX 25.12) (preloaded format=xelatex 2026.5.8)  21 MAY 2026 06:04
+This is XeTeX, Version 3.141592653-2.6-0.999997 (MiKTeX 25.12) (preloaded format=xelatex 2026.5.8)  29 MAY 2026 12:47
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"e:/1. Tai lieu tu hoc/20. github/longnk-cv/CV_v4/cv_v4.tex"
-(e:/1. Tai lieu tu hoc/20. github/longnk-cv/CV_v4/cv_v4.tex
+**"e:/1. Tai lieu tu hoc/programming/20. github/personal/longnk-cv/CV_v4/cv_v4.
+tex"
+
+(e:/1. Tai lieu tu hoc/programming/20. github/personal/longnk-cv/CV_v4/cv_v4.te
+x
 LaTeX2e <2025-11-01>
 L3 programming layer <2025-12-24>
 (src/awesome-cv.cls
@@ -1226,29 +1229,39 @@ Package: wasysym 2020/01/19 v2.4 Wasy-2 symbol support package
 LaTeX Font Info:    Overwriting symbol font `wasy' in version `bold'
 (Font)                  U/wasy/m/n --> U/wasy/b/n on input line 93.
 ))
+(C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/tools\tabularx.sty
+Package: tabularx 2023/12/11 v2.12a `tabularx' package (DPC)
+\TX@col@width=\dimen312
+\TX@old@table=\dimen313
+\TX@old@col=\dimen314
+\TX@target=\dimen315
+\TX@delta=\dimen316
+\TX@cols=\count366
+\TX@ftn=\toks43
+)
 (cv_v4.aux)
 \openout1 = `cv_v4.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 61.
+LaTeX Font Info:    ... okay on input line 61.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
@@ -1284,34 +1297,53 @@ LaTeX Font Info:    ... okay on input line 44.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring OFF on input line 44.
+Package hyperref Info: Link coloring OFF on input line 61.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: wrapfig package is loaded.
 Package caption Info: End \AtBeginDocument code.
 \headertextwidth=\skip89
 \headerphotowidth=\skip90
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 10.00107pt on input line 50.
+(Font)              scaled to size 10.00107pt on input line 67.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 7.00075pt on input line 50.
+(Font)              scaled to size 7.00075pt on input line 67.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 5.00053pt on input line 50.
+(Font)              scaled to size 5.00053pt on input line 67.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 9.99893pt on input line 50.
+(Font)              scaled to size 9.99893pt on input line 67.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 6.99925pt on input line 50.
+(Font)              scaled to size 6.99925pt on input line 67.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 4.99947pt on input line 50.
-LaTeX Font Info:    Trying to load font information for U+wasy on input line 50
+(Font)              scaled to size 4.99947pt on input line 67.
+LaTeX Font Info:    Trying to load font information for U+wasy on input line 67
 .
 (C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/wasysym\uwasy.fd
 File: uwasy.fd 2020/01/19 v2.4 Wasy-2 symbol font definitions
 )
-Overfull \hbox (2.22pt too wide) in paragraph at lines 50--50
+Overfull \hbox (2.22pt too wide) in paragraph at lines 67--67
 []$[]$ $[]$$[]$ 
  []
 
 (cv/education.tex
+LaTeX Font Info:    Calculating math sizes for size <8.8> on input line 16.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
+(Font)              scaled to size 8.80093pt on input line 16.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
+(Font)              scaled to size 6.16063pt on input line 16.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
+(Font)              scaled to size 4.40045pt on input line 16.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
+(Font)              scaled to size 8.79906pt on input line 16.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
+(Font)              scaled to size 6.1593pt on input line 16.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
+(Font)              scaled to size 4.39952pt on input line 16.
+
+
+LaTeX Font Warning: Font shape `U/wasy/m/n' in size <4.4> not available
+(Font)              size <5> substituted on input line 16.
+
+
 Underfull \hbox (badness 5607) in paragraph at lines 16--16
  []|[]\TU/lmroman10-regular.otf(0)/m/it/7.35 Hanoi, Vietnam[]|
  []
@@ -1332,12 +1364,12 @@ Underfull \hbox (badness 1968) in paragraph at lines 16--16
  []
 
 
-Underfull \hbox (badness 1199) in paragraph at lines 29--29
+Underfull \hbox (badness 1199) in paragraph at lines 30--30
  []|[]\TU/lmroman10-regular.otf(0)/m/it/7.35 Chiayi, Taiwan / Remote[]|
  []
 
 
-Underfull \hbox (badness 3312) in paragraph at lines 29--29
+Underfull \hbox (badness 3312) in paragraph at lines 30--30
  []|[]\TU/lmroman10-regular.otf(0)/m/it/7.25 May 2025 – Present[]|
  []
 
@@ -1351,67 +1383,63 @@ Underfull \hbox (badness 3240) in paragraph at lines 43--43
  []|[]\TU/lmroman10-regular.otf(0)/m/it/7.25 Sep. 2022 – Present[]|
  []
 
-) (cv/publications.tex) (cv/exchange_experience.tex
-Underfull \hbox (badness 10000) in paragraph at lines 14--14
+) (cv/publications.tex) (cv/honor.tex) (cv/exchange_experience.tex
+Underfull \hbox (badness 10000) in paragraph at lines 15--15
  []|[]\TU/lmroman10-regular.otf(0)/m/it/7.35 Singapore[]|
  []
 
 
-Underfull \hbox (badness 1968) in paragraph at lines 14--14
+Underfull \hbox (badness 1968) in paragraph at lines 15--15
  []|[]\TU/lmroman10-regular.otf(0)/m/it/7.25 Feb. 2026 – Mar. 2026[]|
  []
 
+LaTeX Font Info:    Calculating math sizes for size <8.15> on input line 15.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
+(Font)              scaled to size 8.15086pt on input line 15.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
+(Font)              scaled to size 5.70555pt on input line 15.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
+(Font)              scaled to size 4.07542pt on input line 15.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
+(Font)              scaled to size 8.14911pt on input line 15.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
+(Font)              scaled to size 5.70435pt on input line 15.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
+(Font)              scaled to size 4.07455pt on input line 15.
 
-Underfull \hbox (badness 10000) in paragraph at lines 25--25
+LaTeX Font Warning: Font shape `U/wasy/m/n' in size <4.075> not available
+(Font)              size <5> substituted on input line 15.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 27--27
  []|[]\TU/lmroman10-regular.otf(0)/m/it/7.35 Singapore[]|
  []
 
 
-Underfull \hbox (badness 1975) in paragraph at lines 25--25
+Underfull \hbox (badness 1975) in paragraph at lines 27--27
  []|[]\TU/lmroman10-regular.otf(0)/m/it/7.25 Aug. 2025 – Dec. 2025[]|
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 36--36
+Underfull \hbox (badness 10000) in paragraph at lines 39--39
  []|[]\TU/lmroman10-regular.otf(0)/m/it/7.35 Taiwan[]|
  []
 
 
-Underfull \hbox (badness 2426) in paragraph at lines 36--36
+Underfull \hbox (badness 2426) in paragraph at lines 39--39
  []|[]\TU/lmroman10-regular.otf(0)/m/it/7.25 May 2025 – Jul. 2025[]|
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 47--47
+Underfull \hbox (badness 10000) in paragraph at lines 51--51
  []|[]\TU/lmroman10-regular.otf(0)/m/it/7.35 Indonesia[]|
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 47--47
+Underfull \hbox (badness 10000) in paragraph at lines 51--51
  []|[]\TU/lmroman10-regular.otf(0)/m/it/7.25 Feb. 2025[]|
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 58--58
- []|[]\TU/lmroman10-regular.otf(0)/m/it/7.35 Singapore[]|
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 58--58
- []|[]\TU/lmroman10-regular.otf(0)/m/it/7.25 Feb. 2024[]|
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 69--69
- []|[]\TU/lmroman10-regular.otf(0)/m/it/7.35 Vietnam[]|
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 69--69
- []|[]\TU/lmroman10-regular.otf(0)/m/it/7.25 Feb. 2023[]|
- []
-
-) (cv/honor.tex
 
 Package fancyhdr Warning: \footskip is too small (9.95863pt): 
 (fancyhdr)                Make it at least 12.0pt, for example:
@@ -1420,15 +1448,14 @@ Package fancyhdr Warning: \footskip is too small (9.95863pt):
 [1
 
 ]
-Runaway argument?
-cv/honor.tex:46: Paragraph ended before \cvhonor was complete.
-<to be read again> 
-                   \par 
-l.46 
-     
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
+Underfull \hbox (badness 10000) in paragraph at lines 64--64
+ []|[]\TU/lmroman10-regular.otf(0)/m/it/7.35 Singapore[]|
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 64--64
+ []|[]\TU/lmroman10-regular.otf(0)/m/it/7.25 Feb. 2024[]|
+ []
 
 ) (cv/teaching.tex
 Underfull \hbox (badness 5607) in paragraph at lines 22--22
@@ -1441,1053 +1468,49 @@ Underfull \hbox (badness 2103) in paragraph at lines 22--22
  []
 
 ) (cv/working_experience.tex
-Underfull \hbox (badness 5607) in paragraph at lines 16--16
+Underfull \hbox (badness 5607) in paragraph at lines 18--18
  []|[]\TU/lmroman10-regular.otf(0)/m/it/7.35 Hanoi, Vietnam[]|
  []
 
 
-Underfull \hbox (badness 1990) in paragraph at lines 16--16
+Underfull \hbox (badness 1990) in paragraph at lines 18--18
  []|[]\TU/lmroman10-regular.otf(0)/m/it/7.25 Mar. 2025 – May 2025[]|
  []
 
 
-Underfull \hbox (badness 5607) in paragraph at lines 31--31
+Underfull \hbox (badness 5607) in paragraph at lines 33--33
  []|[]\TU/lmroman10-regular.otf(0)/m/it/7.35 Hanoi, Vietnam[]|
  []
 
 
-Underfull \hbox (badness 2368) in paragraph at lines 31--31
+Underfull \hbox (badness 2368) in paragraph at lines 33--33
  []|[]\TU/lmroman10-regular.otf(0)/m/it/7.25 Jul. 2023 – Sep. 2023[]|
  []
 
+) (cv/skills.tex) (cv/references.tex)
 
-cv/working_experience.tex:31: LaTeX Error: \begin{itemize} on input line 31 end
-ed by \end{cvitems}.
+Package fancyhdr Warning: \footskip is too small (9.95863pt): 
+(fancyhdr)                Make it at least 12.0pt, for example:
+(fancyhdr)                \setlength{\footskip}{12.0pt}.
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.31     }
-          
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
+[2] (cv_v4.aux)
+ ***********
+LaTeX2e <2025-11-01>
+L3 programming layer <2025-12-24>
+ ***********
 
-cv/working_experience.tex:31: Extra }, or forgotten \endgroup.
-\descriptionstyle ...ht \upshape \color {text} #1}
-                                                  
-l.31     }
-          
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
 
-cv/working_experience.tex:31: Missing } inserted.
-<inserted text> 
-                }
-l.31     }
-          
-I've put in what seems to be necessary to fix
-the current column of the current alignment.
-Try to go on, since this might almost work.
+LaTeX Font Warning: Size substitutions with differences
+(Font)              up to 0.925pt have occurred.
 
-cv/working_experience.tex:31: Extra }, or forgotten \endgroup.
-<inserted text> }
-                 
-l.31     }
-          
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-cv/working_experience.tex:31: Missing } inserted.
-<inserted text> 
-                }
-l.31     }
-          
-I've put in what seems to be necessary to fix
-the current column of the current alignment.
-Try to go on, since this might almost work.
-
-cv/working_experience.tex:31: Extra }, or forgotten \endgroup.
-<inserted text> }
-                 
-l.31     }
-          
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-cv/working_experience.tex:31: Missing } inserted.
-<inserted text> 
-                }
-l.31     }
-          
-I've put in what seems to be necessary to fix
-the current column of the current alignment.
-Try to go on, since this might almost work.
-
-cv/working_experience.tex:31: Extra }, or forgotten \endgroup.
-<inserted text> }
-                 
-l.31     }
-          
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-cv/working_experience.tex:31: Missing } inserted.
-<inserted text> 
-                }
-l.31     }
-          
-I've put in what seems to be necessary to fix
-the current column of the current alignment.
-Try to go on, since this might almost work.
-
-cv/working_experience.tex:31: Extra }, or forgotten \endgroup.
-<inserted text> }
-                 
-l.31     }
-          
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-cv/working_experience.tex:31: Missing } inserted.
-<inserted text> 
-                }
-l.31     }
-          
-I've put in what seems to be necessary to fix
-the current column of the current alignment.
-Try to go on, since this might almost work.
-
-cv/working_experience.tex:31: Extra }, or forgotten \endgroup.
-<inserted text> }
-                 
-l.31     }
-          
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-cv/working_experience.tex:31: Missing } inserted.
-<inserted text> 
-                }
-l.31     }
-          
-I've put in what seems to be necessary to fix
-the current column of the current alignment.
-Try to go on, since this might almost work.
-
-cv/working_experience.tex:31: Extra }, or forgotten \endgroup.
-<inserted text> }
-                 
-l.31     }
-          
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-cv/working_experience.tex:31: Missing } inserted.
-<inserted text> 
-                }
-l.31     }
-          
-I've put in what seems to be necessary to fix
-the current column of the current alignment.
-Try to go on, since this might almost work.
-
-cv/working_experience.tex:31: Extra }, or forgotten \endgroup.
-<inserted text> }
-                 
-l.31     }
-          
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-cv/working_experience.tex:31: Missing } inserted.
-<inserted text> 
-                }
-l.31     }
-          
-I've put in what seems to be necessary to fix
-the current column of the current alignment.
-Try to go on, since this might almost work.
-
-cv/working_experience.tex:31: Extra }, or forgotten \endgroup.
-<inserted text> }
-                 
-l.31     }
-          
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-cv/working_experience.tex:31: Missing } inserted.
-<inserted text> 
-                }
-l.31     }
-          
-I've put in what seems to be necessary to fix
-the current column of the current alignment.
-Try to go on, since this might almost work.
-
-cv/working_experience.tex:31: Extra }, or forgotten \endgroup.
-<inserted text> }
-                 
-l.31     }
-          
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-cv/working_experience.tex:31: Missing } inserted.
-<inserted text> 
-                }
-l.31     }
-          
-I've put in what seems to be necessary to fix
-the current column of the current alignment.
-Try to go on, since this might almost work.
-
-cv/working_experience.tex:31: Extra }, or forgotten \endgroup.
-<inserted text> }
-                 
-l.31     }
-          
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-cv/working_experience.tex:31: Missing } inserted.
-<inserted text> 
-                }
-l.31     }
-          
-I've put in what seems to be necessary to fix
-the current column of the current alignment.
-Try to go on, since this might almost work.
-
-cv/working_experience.tex:31: Extra }, or forgotten \endgroup.
-<inserted text> }
-                 
-l.31     }
-          
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-cv/working_experience.tex:31: Missing } inserted.
-<inserted text> 
-                }
-l.31     }
-          
-I've put in what seems to be necessary to fix
-the current column of the current alignment.
-Try to go on, since this might almost work.
-
-cv/working_experience.tex:31: Extra }, or forgotten \endgroup.
-<inserted text> }
-                 
-l.31     }
-          
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-cv/working_experience.tex:31: Missing } inserted.
-<inserted text> 
-                }
-l.31     }
-          
-I've put in what seems to be necessary to fix
-the current column of the current alignment.
-Try to go on, since this might almost work.
-
-cv/working_experience.tex:31: Extra }, or forgotten \endgroup.
-<inserted text> }
-                 
-l.31     }
-          
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-cv/working_experience.tex:31: Missing } inserted.
-<inserted text> 
-                }
-l.31     }
-          
-I've put in what seems to be necessary to fix
-the current column of the current alignment.
-Try to go on, since this might almost work.
-
-cv/working_experience.tex:31: Extra }, or forgotten \endgroup.
-<inserted text> }
-                 
-l.31     }
-          
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-cv/working_experience.tex:31: Missing } inserted.
-<inserted text> 
-                }
-l.31     }
-          
-I've put in what seems to be necessary to fix
-the current column of the current alignment.
-Try to go on, since this might almost work.
-
-cv/working_experience.tex:31: Extra }, or forgotten \endgroup.
-<inserted text> }
-                 
-l.31     }
-          
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-cv/working_experience.tex:31: Missing } inserted.
-<inserted text> 
-                }
-l.31     }
-          
-I've put in what seems to be necessary to fix
-the current column of the current alignment.
-Try to go on, since this might almost work.
-
-cv/working_experience.tex:31: Extra }, or forgotten \endgroup.
-<inserted text> }
-                 
-l.31     }
-          
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-cv/working_experience.tex:31: Missing } inserted.
-<inserted text> 
-                }
-l.31     }
-          
-I've put in what seems to be necessary to fix
-the current column of the current alignment.
-Try to go on, since this might almost work.
-
-cv/working_experience.tex:31: Extra }, or forgotten \endgroup.
-<inserted text> }
-                 
-l.31     }
-          
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-cv/working_experience.tex:31: Missing } inserted.
-<inserted text> 
-                }
-l.31     }
-          
-I've put in what seems to be necessary to fix
-the current column of the current alignment.
-Try to go on, since this might almost work.
-
-cv/working_experience.tex:31: Extra }, or forgotten \endgroup.
-<inserted text> }
-                 
-l.31     }
-          
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-cv/working_experience.tex:31: Missing } inserted.
-<inserted text> 
-                }
-l.31     }
-          
-I've put in what seems to be necessary to fix
-the current column of the current alignment.
-Try to go on, since this might almost work.
-
-cv/working_experience.tex:31: Extra }, or forgotten \endgroup.
-<inserted text> }
-                 
-l.31     }
-          
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-cv/working_experience.tex:31: Missing } inserted.
-<inserted text> 
-                }
-l.31     }
-          
-I've put in what seems to be necessary to fix
-the current column of the current alignment.
-Try to go on, since this might almost work.
-
-cv/working_experience.tex:31: Extra }, or forgotten \endgroup.
-<inserted text> }
-                 
-l.31     }
-          
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-cv/working_experience.tex:31: Missing } inserted.
-<inserted text> 
-                }
-l.31     }
-          
-I've put in what seems to be necessary to fix
-the current column of the current alignment.
-Try to go on, since this might almost work.
-
-cv/working_experience.tex:31: Extra }, or forgotten \endgroup.
-<inserted text> }
-                 
-l.31     }
-          
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-cv/working_experience.tex:31: Missing } inserted.
-<inserted text> 
-                }
-l.31     }
-          
-I've put in what seems to be necessary to fix
-the current column of the current alignment.
-Try to go on, since this might almost work.
-
-cv/working_experience.tex:31: Extra }, or forgotten \endgroup.
-<inserted text> }
-                 
-l.31     }
-          
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-cv/working_experience.tex:31: Missing } inserted.
-<inserted text> 
-                }
-l.31     }
-          
-I've put in what seems to be necessary to fix
-the current column of the current alignment.
-Try to go on, since this might almost work.
-
-cv/working_experience.tex:31: Extra }, or forgotten \endgroup.
-<inserted text> }
-                 
-l.31     }
-          
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-cv/working_experience.tex:31: Missing } inserted.
-<inserted text> 
-                }
-l.31     }
-          
-I've put in what seems to be necessary to fix
-the current column of the current alignment.
-Try to go on, since this might almost work.
-
-cv/working_experience.tex:31: Extra }, or forgotten \endgroup.
-<inserted text> }
-                 
-l.31     }
-          
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-cv/working_experience.tex:31: Missing } inserted.
-<inserted text> 
-                }
-l.31     }
-          
-I've put in what seems to be necessary to fix
-the current column of the current alignment.
-Try to go on, since this might almost work.
-
-cv/working_experience.tex:31: Extra }, or forgotten \endgroup.
-<inserted text> }
-                 
-l.31     }
-          
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-cv/working_experience.tex:31: Missing } inserted.
-<inserted text> 
-                }
-l.31     }
-          
-I've put in what seems to be necessary to fix
-the current column of the current alignment.
-Try to go on, since this might almost work.
-
-cv/working_experience.tex:31: Extra }, or forgotten \endgroup.
-<inserted text> }
-                 
-l.31     }
-          
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-cv/working_experience.tex:31: Missing } inserted.
-<inserted text> 
-                }
-l.31     }
-          
-I've put in what seems to be necessary to fix
-the current column of the current alignment.
-Try to go on, since this might almost work.
-
-cv/working_experience.tex:31: Extra }, or forgotten \endgroup.
-<inserted text> }
-                 
-l.31     }
-          
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-cv/working_experience.tex:31: Missing } inserted.
-<inserted text> 
-                }
-l.31     }
-          
-I've put in what seems to be necessary to fix
-the current column of the current alignment.
-Try to go on, since this might almost work.
-
-cv/working_experience.tex:31: Extra }, or forgotten \endgroup.
-<inserted text> }
-                 
-l.31     }
-          
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-cv/working_experience.tex:31: Missing } inserted.
-<inserted text> 
-                }
-l.31     }
-          
-I've put in what seems to be necessary to fix
-the current column of the current alignment.
-Try to go on, since this might almost work.
-
-cv/working_experience.tex:31: Extra }, or forgotten \endgroup.
-<inserted text> }
-                 
-l.31     }
-          
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-cv/working_experience.tex:31: Missing } inserted.
-<inserted text> 
-                }
-l.31     }
-          
-I've put in what seems to be necessary to fix
-the current column of the current alignment.
-Try to go on, since this might almost work.
-
-cv/working_experience.tex:31: Extra }, or forgotten \endgroup.
-<inserted text> }
-                 
-l.31     }
-          
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-cv/working_experience.tex:31: Missing } inserted.
-<inserted text> 
-                }
-l.31     }
-          
-I've put in what seems to be necessary to fix
-the current column of the current alignment.
-Try to go on, since this might almost work.
-
-cv/working_experience.tex:31: Extra }, or forgotten \endgroup.
-<inserted text> }
-                 
-l.31     }
-          
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-cv/working_experience.tex:31: Missing } inserted.
-<inserted text> 
-                }
-l.31     }
-          
-I've put in what seems to be necessary to fix
-the current column of the current alignment.
-Try to go on, since this might almost work.
-
-cv/working_experience.tex:31: Extra }, or forgotten \endgroup.
-<inserted text> }
-                 
-l.31     }
-          
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-cv/working_experience.tex:31: Missing } inserted.
-<inserted text> 
-                }
-l.31     }
-          
-I've put in what seems to be necessary to fix
-the current column of the current alignment.
-Try to go on, since this might almost work.
-
-cv/working_experience.tex:31: Extra }, or forgotten \endgroup.
-<inserted text> }
-                 
-l.31     }
-          
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-cv/working_experience.tex:31: Missing } inserted.
-<inserted text> 
-                }
-l.31     }
-          
-I've put in what seems to be necessary to fix
-the current column of the current alignment.
-Try to go on, since this might almost work.
-
-cv/working_experience.tex:31: Extra }, or forgotten \endgroup.
-<inserted text> }
-                 
-l.31     }
-          
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-cv/working_experience.tex:31: Missing } inserted.
-<inserted text> 
-                }
-l.31     }
-          
-I've put in what seems to be necessary to fix
-the current column of the current alignment.
-Try to go on, since this might almost work.
-
-cv/working_experience.tex:31: Extra }, or forgotten \endgroup.
-<inserted text> }
-                 
-l.31     }
-          
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-cv/working_experience.tex:31: Missing } inserted.
-<inserted text> 
-                }
-l.31     }
-          
-I've put in what seems to be necessary to fix
-the current column of the current alignment.
-Try to go on, since this might almost work.
-
-cv/working_experience.tex:31: Extra }, or forgotten \endgroup.
-<inserted text> }
-                 
-l.31     }
-          
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-cv/working_experience.tex:31: Missing } inserted.
-<inserted text> 
-                }
-l.31     }
-          
-I've put in what seems to be necessary to fix
-the current column of the current alignment.
-Try to go on, since this might almost work.
-
-cv/working_experience.tex:31: Extra }, or forgotten \endgroup.
-<inserted text> }
-                 
-l.31     }
-          
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-cv/working_experience.tex:31: Missing } inserted.
-<inserted text> 
-                }
-l.31     }
-          
-I've put in what seems to be necessary to fix
-the current column of the current alignment.
-Try to go on, since this might almost work.
-
-cv/working_experience.tex:31: Extra }, or forgotten \endgroup.
-<inserted text> }
-                 
-l.31     }
-          
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-cv/working_experience.tex:31: Missing } inserted.
-<inserted text> 
-                }
-l.31     }
-          
-I've put in what seems to be necessary to fix
-the current column of the current alignment.
-Try to go on, since this might almost work.
-
-cv/working_experience.tex:31: Extra }, or forgotten \endgroup.
-<inserted text> }
-                 
-l.31     }
-          
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-cv/working_experience.tex:31: Missing } inserted.
-<inserted text> 
-                }
-l.31     }
-          
-I've put in what seems to be necessary to fix
-the current column of the current alignment.
-Try to go on, since this might almost work.
-
-cv/working_experience.tex:31: Extra }, or forgotten \endgroup.
-<inserted text> }
-                 
-l.31     }
-          
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-cv/working_experience.tex:31: Missing } inserted.
-<inserted text> 
-                }
-l.31     }
-          
-I've put in what seems to be necessary to fix
-the current column of the current alignment.
-Try to go on, since this might almost work.
-
-cv/working_experience.tex:31: Extra }, or forgotten \endgroup.
-<inserted text> }
-                 
-l.31     }
-          
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-cv/working_experience.tex:31: Missing } inserted.
-<inserted text> 
-                }
-l.31     }
-          
-I've put in what seems to be necessary to fix
-the current column of the current alignment.
-Try to go on, since this might almost work.
-
-cv/working_experience.tex:31: Extra }, or forgotten \endgroup.
-<inserted text> }
-                 
-l.31     }
-          
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-cv/working_experience.tex:31: Missing } inserted.
-<inserted text> 
-                }
-l.31     }
-          
-I've put in what seems to be necessary to fix
-the current column of the current alignment.
-Try to go on, since this might almost work.
-
-cv/working_experience.tex:31: Extra }, or forgotten \endgroup.
-<inserted text> }
-                 
-l.31     }
-          
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-cv/working_experience.tex:31: Missing } inserted.
-<inserted text> 
-                }
-l.31     }
-          
-I've put in what seems to be necessary to fix
-the current column of the current alignment.
-Try to go on, since this might almost work.
-
-cv/working_experience.tex:31: Extra }, or forgotten \endgroup.
-<inserted text> }
-                 
-l.31     }
-          
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-cv/working_experience.tex:31: Missing } inserted.
-<inserted text> 
-                }
-l.31     }
-          
-I've put in what seems to be necessary to fix
-the current column of the current alignment.
-Try to go on, since this might almost work.
-
-cv/working_experience.tex:31: Extra }, or forgotten \endgroup.
-<inserted text> }
-                 
-l.31     }
-          
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-cv/working_experience.tex:31: Missing } inserted.
-<inserted text> 
-                }
-l.31     }
-          
-I've put in what seems to be necessary to fix
-the current column of the current alignment.
-Try to go on, since this might almost work.
-
-cv/working_experience.tex:31: Extra }, or forgotten \endgroup.
-<inserted text> }
-                 
-l.31     }
-          
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-cv/working_experience.tex:31: Missing } inserted.
-<inserted text> 
-                }
-l.31     }
-          
-I've put in what seems to be necessary to fix
-the current column of the current alignment.
-Try to go on, since this might almost work.
-
-cv/working_experience.tex:31: Extra }, or forgotten \endgroup.
-<inserted text> }
-                 
-l.31     }
-          
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-cv/working_experience.tex:31: Missing } inserted.
-<inserted text> 
-                }
-l.31     }
-          
-I've put in what seems to be necessary to fix
-the current column of the current alignment.
-Try to go on, since this might almost work.
-
-cv/working_experience.tex:31: Extra }, or forgotten \endgroup.
-<inserted text> }
-                 
-l.31     }
-          
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-cv/working_experience.tex:31: Missing } inserted.
-<inserted text> 
-                }
-l.31     }
-          
-I've put in what seems to be necessary to fix
-the current column of the current alignment.
-Try to go on, since this might almost work.
-
-cv/working_experience.tex:31: Extra }, or forgotten \endgroup.
-<inserted text> }
-                 
-l.31     }
-          
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-cv/working_experience.tex:31: Missing } inserted.
-<inserted text> 
-                }
-l.31     }
-          
-I've put in what seems to be necessary to fix
-the current column of the current alignment.
-Try to go on, since this might almost work.
-
-cv/working_experience.tex:31: Extra }, or forgotten \endgroup.
-<inserted text> }
-                 
-l.31     }
-          
-(That makes 100 errors; please try again.) 
+ ) 
 Here is how much of TeX's memory you used:
- 35913 strings out of 402987
- 719559 string characters out of 5448732
- 1348952 words of memory out of 5000000
- 64130 multiletter control sequences out of 15000+600000
- 629871 words of font info for 100 fonts, out of 8000000 for 9000
+ 36048 strings out of 402987
+ 723104 string characters out of 5448732
+ 1353953 words of memory out of 5000000
+ 64231 multiletter control sequences out of 15000+600000
+ 633829 words of font info for 127 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 131i,11n,135p,614b,500s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 131i,11n,135p,635b,530s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Error 1 (driver return code) generating output;
-file cv_v4.pdf may not be valid.
+Output written on cv_v4.pdf (2 pages).

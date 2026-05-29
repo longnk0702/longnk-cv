@@ -13,6 +13,21 @@
 \setlength{\parskip}{0pt}
 \setlength{\parindent}{0pt}
 \usepackage{enumitem}
+\usepackage{tabularx}
+\usepackage{enumitem}
+
+%-------------------------------------------------------------------------------
+% REFERENCE CONTACT STYLE
+%-------------------------------------------------------------------------------
+\newcommand{\cvrefblue}[1]{{\color{awesome}#1}}
+
+\newcommand{\cvrefwebsite}[2]{%
+  \item \cvrefblue{\faGlobe\ Website: \href{#1}{\cvrefblue{#2}}}%
+}
+
+\newcommand{\cvrefemail}[1]{%
+  \item \cvrefblue{\faEnvelope\ Contact: \href{mailto:#1}{\cvrefblue{#1}}}%
+}
 
 %-------------------------------------------------------------------------------
 % COLOR SETTING
@@ -21,8 +36,10 @@
 \definecolor{longblue}{HTML}{101CA4}
 \colorlet{awesome}{longblue}
 
-% Clean academic style: section titles are black, not highlighted
 \setbool{acvSectionColorHighlight}{false}
+
+% Make contact/social links in the header blue
+\renewcommand*{\headersocialstyle}[1]{{\fontsize{6.8pt}{1em}\headerfont\color{awesome} #1}}
 
 %-------------------------------------------------------------------------------
 % PERSONAL INFORMATION
@@ -63,8 +80,8 @@
 \input{cv/education.tex}
 \input{cv/research_experience.tex}
 \input{cv/publications.tex}
-\input{cv/exchange_experience.tex}
 \input{cv/honor.tex}
+\input{cv/exchange_experience.tex}
 \input{cv/teaching.tex}
 \input{cv/working_experience.tex}
 \input{cv/skills.tex}
@@ -73,4 +90,3 @@
 
 %-------------------------------------------------------------------------------
 \end{document}
-
