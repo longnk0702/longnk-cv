@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (MiKTeX 25.12) (preloaded format=xelatex 2026.5.8)  30 MAY 2026 01:30
+This is XeTeX, Version 3.141592653-2.6-0.999997 (MiKTeX 25.12) (preloaded format=xelatex 2026.5.8)  30 MAY 2026 15:53
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1315,46 +1315,36 @@ Overfull \hbox (2.22pt too wide) in paragraph at lines 52--52
  []
 
 (cv/education.tex
-Underfull \hbox (badness 4954) in paragraph at lines 15--15
- []|[]\TU/lmroman10-regular.otf(0)/m/it/7.8 Hanoi, Vietnam[]|
- []
-
-
-Underfull \hbox (badness 1533) in paragraph at lines 15--15
- []|[]\TU/lmroman10-regular.otf(0)/m/it/7.8 Sep. 2021 – Dec. 2026[]|
+Underfull \hbox (badness 2913) in paragraph at lines 15--15
+ []|[]\TU/lmroman10-regular.otf(0)/m/it/9.5 Hanoi, Vietnam[]|
  []
 
 ) (cv/research_experience.tex
 Underfull \hbox (badness 10000) in paragraph at lines 14--14
- []|[]\TU/lmroman10-regular.otf(0)/m/it/7.8 Singapore[]|
+ []|[]\TU/lmroman10-regular.otf(0)/m/it/9.5 Singapore[]|
  []
 
 
-Underfull \hbox (badness 1412) in paragraph at lines 14--14
- []|[]\TU/lmroman10-regular.otf(0)/m/it/7.8 Feb. 2026 – Mar. 2026[]|
+Underfull \hbox (badness 2080) in paragraph at lines 28--28
+ []|[]\TU/lmroman10-regular.otf(0)/m/it/9.5 Taiwan / Remote[]|
  []
 
 
-Underfull \hbox (badness 3942) in paragraph at lines 28--28
- []|[]\TU/lmroman10-regular.otf(0)/m/it/7.8 Taiwan / Remote[]|
+Underfull \hbox (badness 1097) in paragraph at lines 28--28
+ []|[]\TU/lmroman10-regular.otf(0)/m/it/9.5 May 2025 – Present[]|
  []
 
 
-Underfull \hbox (badness 2617) in paragraph at lines 28--28
- []|[]\TU/lmroman10-regular.otf(0)/m/it/7.8 May 2025 – Present[]|
+Underfull \hbox (badness 2913) in paragraph at lines 41--41
+ []|[]\TU/lmroman10-regular.otf(0)/m/it/9.5 Hanoi, Vietnam[]|
  []
 
 
-Underfull \hbox (badness 4954) in paragraph at lines 41--41
- []|[]\TU/lmroman10-regular.otf(0)/m/it/7.8 Hanoi, Vietnam[]|
+Underfull \hbox (badness 1052) in paragraph at lines 41--41
+ []|[]\TU/lmroman10-regular.otf(0)/m/it/9.5 Sep. 2022 – Present[]|
  []
 
-
-Underfull \hbox (badness 2556) in paragraph at lines 41--41
- []|[]\TU/lmroman10-regular.otf(0)/m/it/7.8 Sep. 2022 – Present[]|
- []
-
-) (cv/publications.tex) (cv/honor.tex) (cv/exchange_experience.tex
+) (cv/exchange_experience.tex
 LaTeX Font Info:    Calculating math sizes for size <8.8> on input line 15.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
 (Font)              scaled to size 8.80093pt on input line 15.
@@ -1375,53 +1365,44 @@ LaTeX Font Warning: Font shape `U/wasy/m/n' in size <4.4> not available
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 15--15
- []|[]\TU/lmroman10-regular.otf(0)/m/it/7.8 Singapore[]|
+ []|[]\TU/lmroman10-regular.otf(0)/m/it/9.5 Singapore[]|
  []
 
-
-Underfull \hbox (badness 1412) in paragraph at lines 15--15
- []|[]\TU/lmroman10-regular.otf(0)/m/it/7.8 Feb. 2026 – Mar. 2026[]|
- []
-
-LaTeX Font Info:    Calculating math sizes for size <8.55> on input line 15.
+LaTeX Font Info:    Calculating math sizes for size <9.5> on input line 15.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 8.5509pt on input line 15.
+(Font)              scaled to size 9.501pt on input line 15.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 5.9856pt on input line 15.
+(Font)              scaled to size 6.65067pt on input line 15.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 4.27544pt on input line 15.
+(Font)              scaled to size 4.7505pt on input line 15.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 8.54909pt on input line 15.
+(Font)              scaled to size 9.49898pt on input line 15.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 5.98433pt on input line 15.
+(Font)              scaled to size 6.64925pt on input line 15.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 4.27454pt on input line 15.
+(Font)              scaled to size 4.74948pt on input line 15.
 
-LaTeX Font Warning: Font shape `U/wasy/m/n' in size <8.55> not available
+LaTeX Font Warning: Font shape `U/wasy/m/n' in size <9.5> not available
 (Font)              size <9> substituted on input line 15.
 
 
-LaTeX Font Warning: Font shape `U/wasy/m/n' in size <4.275> not available
-(Font)              size <5> substituted on input line 15.
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 27--27
- []|[]\TU/lmroman10-regular.otf(0)/m/it/7.8 Singapore[]|
- []
-
-
-Underfull \hbox (badness 1424) in paragraph at lines 27--27
- []|[]\TU/lmroman10-regular.otf(0)/m/it/7.8 Aug. 2025 – Dec. 2025[]|
+ []|[]\TU/lmroman10-regular.otf(0)/m/it/9.5 Singapore[]|
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 39--39
- []|[]\TU/lmroman10-regular.otf(0)/m/it/7.8 Taiwan[]|
+ []|[]\TU/lmroman10-regular.otf(0)/m/it/9.5 Taiwan[]|
  []
 
 
-Underfull \hbox (badness 1817) in paragraph at lines 39--39
- []|[]\TU/lmroman10-regular.otf(0)/m/it/7.8 May 2025 – Jul. 2025[]|
+Underfull \hbox (badness 10000) in paragraph at lines 51--51
+ []|[]\TU/lmroman10-regular.otf(0)/m/it/9.5 Indonesia[]|
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 51--51
+ []|[]\TU/lmroman10-regular.otf(0)/m/it/9.5 Feb. 2025[]|
  []
 
 
@@ -1432,56 +1413,16 @@ Package fancyhdr Warning: \footskip is too small (9.95863pt):
 [1
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 51--51
- []|[]\TU/lmroman10-regular.otf(0)/m/it/7.8 Indonesia[]|
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 51--51
- []|[]\TU/lmroman10-regular.otf(0)/m/it/7.8 Feb. 2025[]|
+Underfull \hbox (badness 10000) in paragraph at lines 64--64
+ []|[]\TU/lmroman10-regular.otf(0)/m/it/9.5 Singapore[]|
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 64--64
- []|[]\TU/lmroman10-regular.otf(0)/m/it/7.8 Singapore[]|
+ []|[]\TU/lmroman10-regular.otf(0)/m/it/9.5 Feb. 2024[]|
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 64--64
- []|[]\TU/lmroman10-regular.otf(0)/m/it/7.8 Feb. 2024[]|
- []
-
-) (cv/teaching.tex
-Underfull \hbox (badness 4954) in paragraph at lines 22--22
- []|[]\TU/lmroman10-regular.otf(0)/m/it/7.8 Hanoi, Vietnam[]|
- []
-
-
-Underfull \hbox (badness 1533) in paragraph at lines 22--22
- []|[]\TU/lmroman10-regular.otf(0)/m/it/7.8 Sep. 2023 – Dec. 2024[]|
- []
-
-) (cv/working_experience.tex
-Underfull \hbox (badness 4954) in paragraph at lines 17--17
- []|[]\TU/lmroman10-regular.otf(0)/m/it/7.8 Hanoi, Vietnam[]|
- []
-
-
-Underfull \hbox (badness 1436) in paragraph at lines 17--17
- []|[]\TU/lmroman10-regular.otf(0)/m/it/7.8 Mar. 2025 – May 2025[]|
- []
-
-
-Underfull \hbox (badness 4954) in paragraph at lines 32--32
- []|[]\TU/lmroman10-regular.otf(0)/m/it/7.8 Hanoi, Vietnam[]|
- []
-
-
-Underfull \hbox (badness 1762) in paragraph at lines 32--32
- []|[]\TU/lmroman10-regular.otf(0)/m/it/7.8 Jul. 2023 – Sep. 2023[]|
- []
-
-) (cv/skills.tex
+) (cv/publications.tex) (cv/honor.tex) (cv/skills.tex
 Underfull \hbox (badness 10000) in alignment at lines 3--9
 [][] 
  []
@@ -1524,16 +1465,16 @@ L3 programming layer <2025-12-24>
 
 
 LaTeX Font Warning: Size substitutions with differences
-(Font)              up to 0.725pt have occurred.
+(Font)              up to 0.6pt have occurred.
 
  ) 
 Here is how much of TeX's memory you used:
- 36028 strings out of 402987
- 723518 string characters out of 5448732
- 1348840 words of memory out of 5000000
- 64207 multiletter control sequences out of 15000+600000
- 633675 words of font info for 134 fonts, out of 8000000 for 9000
+ 36019 strings out of 402987
+ 723338 string characters out of 5448732
+ 1339837 words of memory out of 5000000
+ 64202 multiletter control sequences out of 15000+600000
+ 633685 words of font info for 135 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 131i,11n,135p,635b,538s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 131i,11n,135p,635b,482s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 Output written on cv_v4.pdf (2 pages).

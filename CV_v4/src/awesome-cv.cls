@@ -216,16 +216,16 @@
 \newcommand*{\footerstyle}[1]{{\fontsize{7.0pt}{7.8pt}\selectfont\footerfont\upshape\color{lighttext} #1}}
 
 % Section
-\newcommand*{\sectionstyle}[1]{{\fontsize{12.0pt}{13.0pt}\selectfont\bodyfont\bfseries\color{text}\@sectioncolor #1}}
-\newcommand*{\subsectionstyle}[1]{{\fontsize{9.6pt}{10.6pt}\selectfont\bodyfont\bfseries\textcolor{text}{#1}}}
+\newcommand*{\sectionstyle}[1]{{\fontsize{14.0pt}{13.0pt}\selectfont\bodyfont\bfseries\color{text}\@sectioncolor #1}}
+\newcommand*{\subsectionstyle}[1]{{\fontsize{9.5pt}{10.6pt}\selectfont\bodyfont\bfseries\textcolor{text}{#1}}}
 \newcommand*{\paragraphstyle}{\fontsize{8.55pt}{10.05pt}\selectfont\bodyfontlight\upshape\color{text}}
 
 % Entry
 \newcommand*{\entrytitlestyle}[1]{{\fontsize{9.65pt}{10.75pt}\selectfont\bodyfont\bfseries\color{darktext} #1}}
-\newcommand*{\entrypositionstyle}[1]{{\fontsize{8.00pt}{8.90pt}\selectfont\bodyfont\upshape\color{graytext} #1}}
-\newcommand*{\entrydatestyle}[1]{{\fontsize{7.80pt}{8.65pt}\selectfont\bodyfontlight\itshape\color{graytext} #1}}
-\newcommand*{\entrylocationstyle}[1]{{\fontsize{7.80pt}{8.65pt}\selectfont\bodyfontlight\itshape\color{awesome} #1}}
-\newcommand*{\descriptionstyle}[1]{{\fontsize{8.55pt}{10.05pt}\selectfont\bodyfontlight\upshape\color{text} #1}}
+\newcommand*{\entrypositionstyle}[1]{{\fontsize{9.0pt}{10.90pt}\selectfont\bodyfont\upshape\color{graytext} #1}}
+\newcommand*{\entrydatestyle}[1]{{\fontsize{9.5pt}{8.65pt}\selectfont\bodyfontlight\itshape\color{graytext} #1}}
+\newcommand*{\entrylocationstyle}[1]{{\fontsize{9.5pt}{.65pt}\selectfont\bodyfontlight\itshape\color{awesome} #1}}
+\newcommand*{\descriptionstyle}[1]{{\fontsize{9.5pt}{12.05pt}\selectfont\bodyfontlight\upshape\color{text} #1}}
 
 % Subentry
 \newcommand*{\subentrytitlestyle}[1]{{\fontsize{8.05pt}{8.95pt}\selectfont\bodyfont\mdseries\color{graytext} #1}}
@@ -455,10 +455,10 @@
 \newcommand{\acvHeaderAfterQuoteSkip}{1.20mm}
 
 % Others: balanced 2-page academic CV spacing
-\newcommand{\acvSectionTopSkip}{3.15mm}
-\newcommand{\acvSectionContentTopSkip}{0.90mm}
-\newcommand{\acvEntryTopSkip}{0.55mm}
-\newcommand{\acvEntryBottomSkip}{1.15mm}
+\newcommand{\acvSectionTopSkip}{4.15mm}
+\newcommand{\acvSectionContentTopSkip}{0.30mm}
+\newcommand{\acvEntryTopSkip}{1.00mm}
+\newcommand{\acvEntryBottomSkip}{2.15mm}
 \newcommand{\acvEntryDescriptionTopSkip}{-2.15mm}
 
 

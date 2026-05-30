@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (MiKTeX 25.12) (preloaded format=xelatex 2026.5.8)  29 MAY 2026 00:09
+This is XeTeX, Version 3.141592653-2.6-0.999997 (MiKTeX 25.12) (preloaded format=xelatex 2026.5.8)  30 MAY 2026 17:56
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -18,8 +18,8 @@ LaTeX Warning: You have requested document class `src/awesome-cv',
 Document Class: awesome-cv 2017/02/05 v1.6.1 Awesome Curriculum Vitae Class
 (C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
 Document Class: article 2025/01/22 v1.4n Standard LaTeX document class
-(C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/base\size12.clo
-File: size12.clo 2025/01/22 v1.4n Standard LaTeX file (size option)
+(C:\Users\User\AppData\Local\Programs\MiKTeX\tex/latex/base\size11.clo
+File: size11.clo 2025/01/22 v1.4n Standard LaTeX file (size option)
 )
 \c@part=\count271
 \c@section=\count272
@@ -1272,12 +1272,12 @@ LaTeX Font Info:    ... okay on input line 31.
 * \topmargin=-88.78398pt
 * \headheight=12.0pt
 * \headsep=25.0pt
-* \topskip=12.0pt
+* \topskip=11.0pt
 * \footskip=9.95863pt
-* \marginparwidth=35.0pt
+* \marginparwidth=50.0pt
 * \marginparsep=10.0pt
 * \columnsep=10.0pt
-* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
 * \hoffset=0.0pt
 * \voffset=0.0pt
 * \mag=1000
@@ -1293,16 +1293,16 @@ Package caption Info: wrapfig package is loaded.
 Package caption Info: End \AtBeginDocument code.
 
 Package fancyhdr Warning: \footskip is too small (9.95863pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\footskip}{14.49998pt}.
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\footskip}{13.59999pt}.
 
 [1
 
 ]
 
 Package fancyhdr Warning: \footskip is too small (9.95863pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\footskip}{14.49998pt}.
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\footskip}{13.59999pt}.
 
 [2] (CoverLetter_VSSS2026.aux)
  ***********
@@ -1311,12 +1311,12 @@ L3 programming layer <2025-12-24>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 35758 strings out of 402987
- 714640 string characters out of 5448732
- 1327070 words of memory out of 5000000
- 64037 multiletter control sequences out of 15000+600000
+ 35778 strings out of 402987
+ 714989 string characters out of 5448732
+ 1332123 words of memory out of 5000000
+ 64057 multiletter control sequences out of 15000+600000
  628525 words of font info for 68 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 131i,11n,135p,839b,369s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 131i,11n,135p,858b,369s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 Output written on CoverLetter_VSSS2026.pdf (2 pages).
