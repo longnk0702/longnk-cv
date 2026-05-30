@@ -455,11 +455,11 @@
 \newcommand{\acvHeaderAfterQuoteSkip}{1.20mm}
 
 % Others: balanced 2-page academic CV spacing
-\newcommand{\acvSectionTopSkip}{4.15mm}
-\newcommand{\acvSectionContentTopSkip}{0.30mm}
-\newcommand{\acvEntryTopSkip}{1.00mm}
-\newcommand{\acvEntryBottomSkip}{2.15mm}
-\newcommand{\acvEntryDescriptionTopSkip}{-2.15mm}
+\newcommand{\acvSectionTopSkip}{4.6mm}
+\newcommand{\acvSectionContentTopSkip}{0.55mm}
+\newcommand{\acvEntryTopSkip}{1.30mm}
+\newcommand{\acvEntryBottomSkip}{1.45mm}
+\newcommand{\acvEntryDescriptionTopSkip}{-1.35mm}
 
 
 %-------------------------------------------------------------------------------

@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (MiKTeX 25.12) (preloaded format=xelatex 2026.5.8)  30 MAY 2026 15:53
+This is XeTeX, Version 3.141592653-2.6-0.999997 (MiKTeX 25.12) (preloaded format=xelatex 2026.5.8)  30 MAY 2026 18:16
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1315,7 +1315,7 @@ Overfull \hbox (2.22pt too wide) in paragraph at lines 52--52
  []
 
 (cv/education.tex
-Underfull \hbox (badness 2913) in paragraph at lines 15--15
+Underfull \hbox (badness 2913) in paragraph at lines 16--16
  []|[]\TU/lmroman10-regular.otf(0)/m/it/9.5 Hanoi, Vietnam[]|
  []
 
@@ -1428,15 +1428,15 @@ Underfull \hbox (badness 10000) in alignment at lines 3--9
  []
 
 ) (cv/references.tex
-Underfull \hbox (badness 4072) in paragraph at lines 9--9
- []|[]\TU/lmroman10-regular.otf(0)/m/n/8.15 Assistant Professor, School of Elec
-trical & Electronic Engineering, NTU[]|
+Underfull \hbox (badness 10000) in paragraph at lines 9--9
+ []|[]\TU/lmroman10-regular.otf(0)/m/n/8.15 Director of AIM-HI, National Chung 
+Cheng University[]|
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 16--16
- []|[]\TU/lmroman10-regular.otf(0)/m/n/8.15 Director of AIM-HI, National Chung 
-Cheng University[]|
+Underfull \hbox (badness 4072) in paragraph at lines 16--16
+ []|[]\TU/lmroman10-regular.otf(0)/m/n/8.15 Assistant Professor, School of Elec
+trical & Electronic Engineering, NTU[]|
  []
 
 
@@ -1471,7 +1471,7 @@ LaTeX Font Warning: Size substitutions with differences
 Here is how much of TeX's memory you used:
  36019 strings out of 402987
  723338 string characters out of 5448732
- 1339837 words of memory out of 5000000
+ 1340836 words of memory out of 5000000
  64202 multiletter control sequences out of 15000+600000
  633685 words of font info for 135 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
