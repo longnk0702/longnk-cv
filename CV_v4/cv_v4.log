@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (MiKTeX 25.12) (preloaded format=xelatex 2026.5.8)  31 MAY 2026 19:23
+This is XeTeX, Version 3.141592653-2.6-0.999997 (MiKTeX 25.12) (preloaded format=xelatex 2026.5.8)  31 MAY 2026 19:24
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1523,8 +1523,8 @@ LaTeX Font Warning: Size substitutions with differences
 
  ) 
 Here is how much of TeX's memory you used:
- 36048 strings out of 402987
- 724425 string characters out of 5448732
+ 36047 strings out of 402987
+ 724411 string characters out of 5448732
  1345834 words of memory out of 5000000
  64219 multiletter control sequences out of 15000+600000
  635545 words of font info for 147 fonts, out of 8000000 for 9000
