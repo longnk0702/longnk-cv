@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (MiKTeX 25.12) (preloaded format=xelatex 2026.5.8)  31 MAY 2026 02:44
+This is XeTeX, Version 3.141592653-2.6-0.999997 (MiKTeX 25.12) (preloaded format=xelatex 2026.5.8)  31 MAY 2026 19:23
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1335,12 +1335,12 @@ Underfull \hbox (badness 1097) in paragraph at lines 28--28
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 42--42
+Underfull \hbox (badness 10000) in paragraph at lines 44--44
  []|[]\TU/lmroman10-regular.otf(0)/m/it/9.5 Vietnam[]|
  []
 
 
-Underfull \hbox (badness 1052) in paragraph at lines 42--42
+Underfull \hbox (badness 1052) in paragraph at lines 44--44
  []|[]\TU/lmroman10-regular.otf(0)/m/it/9.5 Sep. 2022 – Present[]|
  []
 
@@ -1415,7 +1415,22 @@ Underfull \hbox (badness 10000) in paragraph at lines 68--68
  []|[]\TU/lmroman10-regular.otf(0)/m/it/9.5 Feb. 2024[]|
  []
 
-) (cv/publications.tex
+) (cv/projects.tex
+Underfull \hbox (badness 6741) in paragraph at lines 15--15
+[]|[]\TU/lmroman10-regular.otf(0)/b/n/9.65 Adaptive Control for AUV with Wirele
+ss Power Transfer System 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--15
+ []|[]\TU/lmroman10-regular.otf(0)/m/it/9.5 Vietnam[]|
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 29--29
+ []|[][]|
+ []
+
 
 Package fancyhdr Warning: \footskip is too small (9.95863pt): 
 (fancyhdr)                Make it at least 12.0pt, for example:
@@ -1423,7 +1438,51 @@ Package fancyhdr Warning: \footskip is too small (9.95863pt):
 
 [1
 
-]) (cv/honor.tex) (cv/skills.tex
+]
+Underfull \hbox (badness 2951) in paragraph at lines 42--42
+ []|[]\TU/lmroman10-regular.otf(0)/m/it/9.5 Taiwan/Remote[]|
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 56--56
+ []|[]\TU/lmroman10-regular.otf(0)/m/it/9.5 Vietnam[]|
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 70--70
+ []|[]\TU/lmroman10-regular.otf(0)/m/it/9.5 Vietnam[]|
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 83--83
+ []|[]\TU/lmroman10-regular.otf(0)/m/it/9.5 Vietnam[]|
+ []
+
+
+Underfull \hbox (badness 7869) in paragraph at lines 83--83
+ []|[]\TU/lmroman10-regular.otf(0)/m/it/9.5 Dec. 2024[]|
+ []
+
+) (cv/publications.tex) (cv/honor.tex) (cv/skills.tex
+LaTeX Font Info:    Calculating math sizes for size <8.25> on input line 5.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
+(Font)              scaled to size 8.25087pt on input line 5.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
+(Font)              scaled to size 5.77557pt on input line 5.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
+(Font)              scaled to size 4.12543pt on input line 5.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
+(Font)              scaled to size 8.24911pt on input line 5.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
+(Font)              scaled to size 5.77434pt on input line 5.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
+(Font)              scaled to size 4.12456pt on input line 5.
+
+
+LaTeX Font Warning: Font shape `U/wasy/m/n' in size <4.125> not available
+(Font)              size <5> substituted on input line 5.
+
+
 Underfull \hbox (badness 10000) in alignment at lines 3--9
 [][] 
  []
@@ -1460,16 +1519,16 @@ L3 programming layer <2025-12-24>
 
 
 LaTeX Font Warning: Size substitutions with differences
-(Font)              up to 0.6pt have occurred.
+(Font)              up to 0.875pt have occurred.
 
  ) 
 Here is how much of TeX's memory you used:
- 36019 strings out of 402987
- 723338 string characters out of 5448732
- 1342834 words of memory out of 5000000
- 64202 multiletter control sequences out of 15000+600000
- 633685 words of font info for 135 fonts, out of 8000000 for 9000
+ 36048 strings out of 402987
+ 724425 string characters out of 5448732
+ 1345834 words of memory out of 5000000
+ 64219 multiletter control sequences out of 15000+600000
+ 635545 words of font info for 147 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 131i,11n,135p,635b,482s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 131i,12n,135p,635b,482s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 Output written on cv_v4.pdf (2 pages).

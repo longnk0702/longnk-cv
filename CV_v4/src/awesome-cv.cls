@@ -459,7 +459,7 @@
 \newcommand{\acvSectionContentTopSkip}{0.5mm}
 \newcommand{\acvEntryTopSkip}{1.00mm}
 \newcommand{\acvEntryBottomSkip}{0.15mm}
-\newcommand{\acvEntryDescriptionTopSkip}{-1.35mm}
+\newcommand{\acvEntryDescriptionTopSkip}{-2.5mm}
 
 
 %-------------------------------------------------------------------------------
