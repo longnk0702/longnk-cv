@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (MiKTeX 25.12) (preloaded format=xelatex 2026.5.8)  31 MAY 2026 20:51
+This is XeTeX, Version 3.141592653-2.6-0.999997 (MiKTeX 25.12) (preloaded format=xelatex 2026.5.8)  31 MAY 2026 23:18
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1428,7 +1428,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 15--15
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 29--29
- []|[][]|
+ []|[]\TU/lmroman10-regular.otf(0)/m/it/9.5 Singapore[]|
  []
 
 
@@ -1460,7 +1460,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 83--83
 
 
 Underfull \hbox (badness 7869) in paragraph at lines 83--83
- []|[]\TU/lmroman10-regular.otf(0)/m/it/9.5 Dec. 2024[]|
+ []|[]\TU/lmroman10-regular.otf(0)/m/it/9.5 Dec. 2022[]|
  []
 
 ) (cv/publications.tex) (cv/honor.tex) (cv/skills.tex
@@ -1525,7 +1525,7 @@ LaTeX Font Warning: Size substitutions with differences
 Here is how much of TeX's memory you used:
  36047 strings out of 402987
  724411 string characters out of 5448732
- 1345834 words of memory out of 5000000
+ 1344834 words of memory out of 5000000
  64219 multiletter control sequences out of 15000+600000
  635545 words of font info for 147 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
