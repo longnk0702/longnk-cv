@@ -1,0 +1,338 @@
+   \documentclass[10pt, letterpaper]{article}
+
+% Packages:
+\usepackage[
+    ignoreheadfoot, % set margins without considering header and footer
+    top=2 cm, % seperation between body and page edge from the top
+    bottom=2 cm, % seperation between body and page edge from the bottom
+    left=2 cm, % seperation between body and page edge from the left
+    right=2 cm, % seperation between body and page edge from the right
+    footskip=1.0 cm, % seperation between body and footer
+    % showframe % for debugging 
+]{geometry} % for adjusting page geometry
+\usepackage{titlesec} % for customizing section titles
+\usepackage{tabularx} % for making tables with fixed width columns
+\usepackage{array} % tabularx requires this
+\usepackage[dvipsnames]{xcolor} % for coloring text
+\definecolor{primaryColor}{RGB}{0, 79, 144} % define primary color
+\usepackage{enumitem} % for customizing lists
+\usepackage{fontawesome5} % for using icons
+\usepackage{amsmath} % for math
+\usepackage[
+    pdftitle={John Doe's CV},
+    pdfauthor={John Do},
+    pdfcreator={LaTeX with RenderCV},
+    colorlinks=true,
+    urlcolor=primaryColor
+]{hyperref} % for links, metadata and bookmarks
+\usepackage[pscoord]{eso-pic} % for floating text on the page
+\usepackage{calc} % for calculating lengths
+\usepackage{bookmark} % for bookmarks
+\usepackage{lastpage} % for getting the total number of pages
+\usepackage{changepage} % for one column entries (adjustwidth environment)
+\usepackage{paracol} % for two and three column entries
+\usepackage{ifthen} % for conditional statements
+\usepackage{needspace} % for avoiding page brake right after the section title
+\usepackage{iftex} % check if engine is pdflatex, xetex or luatex
+
+% Ensure that generate pdf is machine readable/ATS parsable:
+\ifPDFTeX
+    \input{glyphtounicode}
+    \pdfgentounicode=1
+    % \usepackage[T1]{fontenc} % this breaks sb2nov
+    \usepackage[utf8]{inputenc}
+    \usepackage{lmodern}
+\fi
+
+
+
+% Some settings:
+\AtBeginEnvironment{adjustwidth}{\partopsep0pt} % remove space before adjustwidth environment
+\pagestyle{empty} % no header or footer
+\setcounter{secnumdepth}{0} % no section numbering
+\setlength{\parindent}{0pt} % no indentation
+\setlength{\topskip}{0pt} % no top skip
+\setlength{\columnsep}{0cm} % set column seperation
+\makeatletter
+\let\ps@customFooterStyle\ps@plain % Copy the plain style to customFooterStyle
+\patchcmd{\ps@customFooterStyle}{\thepage}{
+    \color{gray}\textit{\small \thepage{}}
+}{}{} % replace number by desired string
+\makeatother
+\pagestyle{customFooterStyle}
+
+\titleformat{\section}{\needspace{4\baselineskip}\bfseries\large}{}{0pt}{}[\vspace{1pt}\titlerule]
+
+\titlespacing{\section}{
+    % left space:
+    -1pt
+}{
+    % top space:
+    0.3 cm
+}{
+    % bottom space:
+    0.2 cm
+} % section title spacing
+
+\renewcommand\labelitemi{$\circ$} % custom bullet points
+\newenvironment{highlights}{
+    \begin{itemize}[
+        topsep=0.10 cm,
+        parsep=0.10 cm,
+        partopsep=0pt,
+        itemsep=0pt,
+        leftmargin=0.4 cm + 10pt
+    ]
+}{
+    \end{itemize}
+} % new environment for highlights
+
+\newenvironment{highlightsforbulletentries}{
+    \begin{itemize}[
+        topsep=0.10 cm,
+        parsep=0.10 cm,
+        partopsep=0pt,
+        itemsep=0pt,
+        leftmargin=10pt
+    ]
+}{
+    \end{itemize}
+} % new environment for highlights for bullet entries
+
+
+\newenvironment{onecolentry}{
+    \begin{adjustwidth}{
+        0.2 cm + 0.00001 cm
+    }{
+        0.2 cm + 0.00001 cm
+    }
+}{
+    \end{adjustwidth}
+} % new environment for one column entries
+
+\newenvironment{twocolentry}[2][]{
+    \onecolentry
+    \def\secondColumn{#2}
+    \setcolumnwidth{\fill, 4.5 cm}
+    \begin{paracol}{2}
+}{
+    \switchcolumn \raggedleft \secondColumn
+    \end{paracol}
+    \endonecolentry
+} % new environment for two column entries
+
+\newenvironment{header}{
+    \setlength{\topsep}{0pt}\par\kern\topsep\centering\linespread{1.5}
+}{
+    \par\kern\topsep
+} % new environment for the header
+
+
+
+% save the original href command in a new command:
+\let\hrefWithoutArrow\href
+
+% new command for external links:
+\renewcommand{\href}[2]{\hrefWithoutArrow{#1}{\ifthenelse{\equal{#2}{}}{ }{#2 }\raisebox{.15ex}{\footnotesize \faExternalLink*}}}
+
+
+
+
+% --------------------START EDITING FROM HERE---------------------%
+% "%" means comments => will not show in the final PDF file
+
+
+\begin{document}
+    \newcommand{\AND}{\unskip
+        \cleaders\copy\ANDbox\hskip\wd\ANDbox
+        \ignorespaces
+    }
+    \newsavebox\ANDbox
+    \sbox\ANDbox{}
+
+    \begin{header}
+        \textbf{\fontsize{24 pt}{24 pt}\selectfont YOUR NAME}
+
+        \vspace{0.3 cm}
+
+        \normalsize
+        \mbox{{\color{black}\footnotesize\faMapMarker*}\hspace*{0.13cm} Your place}%
+        \kern 0.25 cm%
+        \AND%
+        \kern 0.25 cm%
+        \mbox{\hrefWithoutArrow{mailto: Your email}{\color{black}{\footnotesize\faEnvelope[regular]}\hspace*{0.13cm}your email}}%
+        \kern 0.25 cm%
+        \AND%
+        \kern 0.25 cm%
+        \mbox{\hrefWithoutArrow{tel: Your number}{\color{black}{\footnotesize\faPhone*}\hspace*{0.13cm} Your number }}%
+        \kern 0.25 cm%
+        \AND%
+        \kern 0.25 cm%
+        \mbox{\hrefWithoutArrow{https://orcid.org/0009-0001-1301-2866}{\color{black}{\footnotesize\faLink}\hspace*{0.13cm}orcid.org/0009-0001-1301-2866}}%
+        \kern 0.25 cm%
+        \AND%
+        
+    \end{header}
+
+    \vspace{0.4 cm}
+
+%Section 1. Education and Training
+\section{Education and Training}
+
+% Copy from here if you want to add another education and training
+        \begin{twocolentry}{
+        \textit{Sept 2019 - May 2024} % Add date here 
+        \textit{Place}}  % Add place here 
+            \textbf
+            {your major} % Add your major here
+
+            \textit{{Name of your university}} %Name of your university
+        \end{twocolentry}
+
+        \vspace{0.10 cm}
+        \begin{onecolentry}
+            \begin{itemize}
+                \item {\textbf{GPA:} 3.25/4.0 \textbf{(Ranking)}} % delete from \textbf if you dont have ranking
+                \item \textbf{Bachelor thesis:} "Your thesis title here" \textbf{(Grade: 9.5/10)}
+                \item \textbf{Coursework:} List your coursework here
+            \end{itemize}
+        \end{onecolentry}
+        \vspace{8pt}
+% End of copy for education and training
+        
+% Section 2: Work Experience     
+\section{Work Experience}
+
+% Copy from here if you want to add another job 
+        \begin{twocolentry}{
+        \textit{ Mar 2024 - Present} % add time 
+        
+        \textit{Hanoi, Vietnam} % add place
+        }     
+        
+            \textbf{Job title} % add job title
+            
+            \textit{{Company's name}} % add the company's name
+        \end{twocolentry}
+        \begin{onecolentry}
+            \hspace{-8pt}
+           \textit{A short description about the company here}
+        \end{onecolentry}
+
+        \vspace{0.10 cm}
+        \begin{onecolentry}
+            \begin{highlights}
+                \item Description 1 % if you want to add more bullet point, add \item 
+                \item Description 2 % if you want to delete a bullet point, delete \item 
+                \item Description 3
+                \item Description 4
+            \end{highlights}
+        \end{onecolentry}
+        \vspace{0.2 cm}
+% End of copy for Job 
+
+% Section 3. Publications 
+\section{Publications}
+
+        \vspace{0.10 cm}
+        \begin{onecolentry}
+            \begin{highlights}
+                \item publication 1 % add or delete \item to add or delete publications
+                \item publication 2
+                \item publication 3
+                \item publication 4
+                       
+            \end{highlights}
+        \end{onecolentry}
+        \vspace{0.2 cm}  
+
+% Section 4. Skills 
+\section{Skills}
+    \vspace{0.2 cm}
+        \begin{onecolentry}
+
+        % Technical Skills
+        \textbf{Technical Skills}
+        \end{onecolentry}
+
+        \vspace{0.10 cm}
+        \begin{onecolentry}
+            \begin{highlights}
+                \item skill 1 % Add or delete \item to add or delete a skill
+                \item skill 2
+                \item skill 3
+            \end{highlights}
+        \end{onecolentry}
+
+        \vspace{0.2 cm}
+
+        % Languages
+        \begin{onecolentry}
+         \textbf{Languages}
+        \begin{itemize}
+            \item Language 1 %Add or delete \item to add or delete a language
+            \item Language 2
+        \end{itemize}
+        \end{onecolentry}
+
+    \vspace{0.2 cm}
+
+% Section 5. Outreach Activities
+\section{Outreach Activities}
+% Copy from here to add another activity below
+        \vspace{0.2 cm}
+        \begin{twocolentry}{
+        \textit{Hanoi, Vietnam} % Add place 
+        
+        \textit{Oct 2020 - Feb 2021}} % Add time
+            \textbf{Role  $|$ Name of the activity} % Add role and activity 
+            \textit{Organizer} % Add organizer, delete this line if you don't have
+        \end{twocolentry}
+          \begin{onecolentry}
+            \hspace{-5pt}
+            \textit{Short description} % Add a short description - delete this line if you don't have
+        \end{onecolentry}
+
+        \vspace{0.10 cm}
+        \begin{onecolentry}
+            \begin{highlights}
+                \item Description 1 % if you want to add more bullet point, add \item 
+                \item Description 2 % if you want to delete a bullet point, delete \item 
+                \item Description 3
+                \item Description 4
+
+            \end{highlights}
+        \end{onecolentry}   
+        
+% End of copy        
+       
+
+% Section 6. Honors and Awards
+\section{Honours and Awards}
+        \vspace{0.2 cm}
+        \begin{twocolentry}{
+        \textit {2023}} % Add time
+            \textbf{Award ABC}   % Add the award 
+        \end{twocolentry}
+
+        \vspace{0.10 cm}
+        \begin{onecolentry}
+            \begin{highlights}
+                \item Description 1 % Add or delete to add or delete description
+                \item Description 2 
+            \end{highlights}
+        \end{onecolentry}
+        
+% Section 7. Reference 
+\section{Reference}
+% Copy from here to add another referee
+    {Mr. Nguyen Van A} % Add name of referee
+     \\{X Department} % Add role here 
+     \\{Y University} % Add more or delete this if necessary
+     \\{Email: \href{xyz@gmail.com}{Email: xyz@gmail.com}}
+    \vspace{0.5cm}
+% End of copy 
+    
+
+
+\end{document}

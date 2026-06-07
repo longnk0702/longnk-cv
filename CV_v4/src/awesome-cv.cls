@@ -767,7 +767,7 @@
   \noindent%
   \setlength\tabcolsep{0pt}%
   \setlength{\extrarowheight}{0pt}%
-  \begin{tabular*}{\textwidth}{@{}L{2.70cm}@{\hspace{0.35cm}}L{\dimexpr\textwidth-3.05cm\relax}@{}}
+  \begin{tabular*}{\textwidth}{@{}L{3.5cm}@{\hspace{0.35cm}}L{\dimexpr\textwidth-3.05cm\relax}@{}}
 }{%
   \end{tabular*}%
   \par\vspace{0mm}%
